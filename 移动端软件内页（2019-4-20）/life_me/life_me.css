@@ -1,0 +1,186 @@
+.title_wrap {
+  height: 2.31481481rem;
+  background: url("../img/header.png");
+  background-size: cover;
+}
+.title_wrap .title {
+  padding-top: 1rem;
+  text-align: center;
+}
+.title_wrap .title .h_left {
+  left: 0.81481481rem;
+  position: absolute;
+  width: 1.27777778rem;
+  height: 1.35185185rem;
+}
+.title_wrap .title .h_left img {
+  width: 1.27777778rem;
+  height: 1.35185185rem;
+}
+.title_wrap .title span {
+  line-height: 1.35185185rem;
+  font-size: 1rem;
+  font-family: "Jdahei";
+  letter-spacing: 0.22222222rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+.title_wrap .title .h_right {
+  position: absolute;
+  right: 0.85185185rem;
+  width: 1.37037037rem;
+  height: 1.16666667rem;
+}
+.title_wrap .title .h_right img {
+  width: 1.37037037rem;
+  height: 1.16666667rem;
+}
+.life_me header {
+  height: 11.75925926rem;
+  width: 100%;
+  background: url("../img/header.png");
+  background-size: contain;
+}
+.life_me header .pay_repay {
+  position: absolute;
+  top: 2.31481481rem;
+  width: 100%;
+  height: 9.44444444rem;
+}
+.life_me header .pay_repay .pay {
+  margin-top: 2.33333333rem;
+  margin-left: 3.61111111rem;
+  float: left;
+}
+.life_me header .pay_repay .pay img {
+  width: 4.16666667rem;
+  height: 4.07407407rem;
+}
+.life_me header .pay_repay .pay span {
+  letter-spacing: 0.18518519rem;
+  margin-top: 0.92592593rem;
+  font-size: 0.77777778rem;
+  display: block;
+  font-family: "JZunYuan";
+  color: #ffffff;
+}
+.life_me header .pay_repay .repay {
+  margin-top: 2.33333333rem;
+  float: right;
+  margin-right: 3.40740741rem;
+}
+.life_me header .pay_repay .repay img {
+  width: 4.35185185rem;
+  height: 4.11111111rem;
+}
+.life_me header .pay_repay .repay span {
+  text-indent: 0.14814815rem;
+  letter-spacing: 0.18518519rem;
+  margin-top: 0.92592593rem;
+  font-size: 0.77777778rem;
+  display: block;
+  font-family: "JZunYuan";
+  color: #ffffff;
+}
+.life_me article {
+  margin-bottom: 4.25925926rem;
+}
+.life_me article .items {
+  width: 100%;
+  margin-top: 1.11111111rem;
+}
+.life_me article .items li {
+  float: left;
+  text-align: center;
+  width: 25%;
+  height: 5.7962963rem;
+  background: white;
+}
+.life_me article .items li img {
+  display: block;
+  margin: 0.37037037rem auto 0;
+  height: 2.88888889rem;
+  width: 2.88888889rem;
+}
+.life_me article .items li span {
+  letter-spacing: 0.07407407rem;
+  margin-top: 0.62962963rem;
+  font-size: 0.72222222rem;
+  display: block;
+  font-family: "JHeiTi";
+  font-weight: bold;
+  color: #000000;
+}
+.life_me article .items::after {
+  clear: both;
+  display: block;
+  content: "";
+}
+.life_me article .swiper-container {
+  width: 18.07407407rem;
+  height: 9rem;
+  margin: 0.55555556rem auto 0;
+}
+.life_me article .swiper-container img {
+  width: 18.07407407rem;
+  height: 9rem;
+}
+.life_me article .swiper-container .swiper-pagination-bullet {
+  width: 0.37037037rem;
+  height: 0.37037037rem;
+}
+.life_me article .swiper-container .swiper-pagination-bullet-active {
+  background: white !important;
+}
+.life_me footer {
+  z-index: 5;
+  border-top: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  width: 100%;
+  height: 3.14814815rem;
+  position: fixed;
+  bottom: 0;
+}
+.life_me footer ul {
+  background: white;
+  display: flex;
+  width: 100%;
+  height: 3.14814815rem;
+}
+.life_me footer ul li:nth-of-type(1),
+.life_me footer ul li:nth-of-type(2),
+.life_me footer ul li:nth-of-type(4),
+.life_me footer ul li:nth-of-type(5) {
+  flex: 1;
+  text-align: center;
+}
+.life_me footer ul li:nth-of-type(1) img,
+.life_me footer ul li:nth-of-type(2) img,
+.life_me footer ul li:nth-of-type(4) img,
+.life_me footer ul li:nth-of-type(5) img {
+  display: block;
+  margin: 0.59259259rem auto 0;
+  width: 1.2962963rem;
+  height: 1.22222222rem;
+}
+.life_me footer ul li:nth-of-type(1) span,
+.life_me footer ul li:nth-of-type(2) span,
+.life_me footer ul li:nth-of-type(4) span,
+.life_me footer ul li:nth-of-type(5) span {
+  padding-top: 0.25925926rem;
+  display: block;
+  font-size: 0.66666667rem;
+  line-height: 0.92592593rem;
+  font-family: "JZunYuan";
+  color: #202020;
+}
+.life_me footer ul li:nth-of-type(3) {
+  flex: 1;
+  position: relative;
+  bottom: 0.44444444rem;
+}
+.life_me footer ul li:nth-of-type(3) img {
+  width: 3.48148148rem;
+  height: 3.48148148rem;
+}
+/*# sourceMappingURL=life_me.css.map */

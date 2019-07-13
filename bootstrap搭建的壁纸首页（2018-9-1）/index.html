@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.css">
+<style>
+body{
+	margin:0px;
+	position: relative;
+}
+#logo{
+	width: 100px;
+	height: 50px;
+	background: url(./img/logo.jpg) 0 -16px no-repeat;
+	background-size:cover;
+	display: block;
+}
+.navbar-brand{
+	padding-top:0px;
+	padding-right: 0px;
+}
+.navbar-default{
+	background: rgb(251,245,255);
+}
+#myCollapse{
+	font-size: 16px;
+	font-weight: bold;
+}
+#content{
+	margin-top: 50px;
+}
+#as{
+	height: 920px;
+}
+#mobie_as{
+/*	background: #eee;*/
+}
+#mobie_as h3{
+	padding:0px;
+	margin: 0px;
+	display: inline-block;
+	text-indent: 42px;
+	line-height: 30px;
+}
+.mo_top{
+	padding-top: 12px;
+	margin-bottom: 12px;
+}
+.infor{
+    text-indent: 10px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+#div{
+  background: orange;
+  width: 10px;
+  height: 800px;
+}
+#btn{
+	outline: none;
+	transition: .5s;
+	background: none;
+	border: none;
+	width: 48px;
+	height: 48px;
+	position: absolute;
+	top: 0px;
+	right: 20px;
+	z-index: 9999;
+}
+.tab-content{
+	width: 100%;
+	background: #eee;
+	padding: 30px 10px 30px 24px;
+}
+.gd,.gd1{
+	width: 32%;
+	padding: 2px;
+	background:rgb(194,94,196);
+	transition: .5s	
+}
+.gd{
+    margin-left: 2px;	
+}
+.gd:hover,.gd1:hover{
+    background: black;
+    opacity: 0.8;
+}
+.getVip{
+	margin-top: 40px;
+
+}
+.vip_content{
+	width: 60%;
+	padding: 20px 0px 30px 100px;
+}
+.vip_content h3{
+	padding-bottom:10px;
+}
+.vip_content p{
+	letter-spacing: 6px;
+	padding-bottom: 10px;
+}
+.vip_logo{
+	width: 40%;
+	background: rgb(251,245,255);
+	background: url(./img/logo1.jpg) no-repeat;
+	background-size: contain;
+}
+.preview{
+	width: 100%;
+	height: 360px;
+   margin-top:22px; 
+   padding-top: 12px;
+	background: #eee;
+   text-align: center;
+   position: relative;
+   z-index: 2;
+}
+.p_list{
+	height: 60%;
+}
+.p_span{
+	display: inline-block;
+	width: 30%;
+	height: 100%;
+	margin-left: 6px;
+	text-align: center;
+	background: white;
+	position: relative;
+	top: 32px;
+	border:1px solid #ddd;
+	transition: .2s;
+	cursor: pointer;
+}
+.p_span:hover{
+	border:2px solid #ddd;
+	top: 28px;
+}
+.p_img{
+	position: absolute;
+	top: -20px;
+	left: 22%;
+	width: 50%;
+	height: 40%;
+}
+.p_span h3{		
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+.p_span a{
+	color: orange;
+}
+.dload{
+	text-align: center;
+	width: 100%;
+	padding-top: 12px;
+}
+.d_btn:hover{
+	background: #FFDAB9	 !important;
+}
+.main{
+	position: relative;
+	width: 100%;
+	height: 40%;
+	top: 22%;
+	padding-left: 18%;
+}
+.a_ul{
+	width: 100%;
+	margin:0px;
+	list-style: none;		
+	position: absolute;
+	top: 24%;
+	left: 36%;	
+}
+.li{
+	width: 100px;
+	height: 50px;
+	margin-top: 10px;
+	position: relative;
+}
+
+.center{
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	top: 9px;
+	left: 9px;
+	border: 1px #FFF0F5 solid;
+	border-radius: 50%;
+	z-index: 3;
+	opacity: 0;
+	transition: .5s;
+}
+.contain{
+	position: absolute;
+	left: 15px;
+	top: 0px;
+	width:0px;
+	height: 0px;			
+	z-index: 1;
+	border-radius:0 30px 30px 0;
+	text-indent: 18px;
+	line-height: 30px;
+	font-size: 14px;
+	opacity: 0;
+	transition: .5s;
+	z-index: 1;
+}       
+.sm{
+	padding: 6px;
+	width: 10px;
+	height: 10px;
+	border: 1px solid black;
+	border-radius: 50%;
+	background:#B0C4DE;	
+	position: absolute;
+	z-index: 2;		
+}
+/*.sm:hover{
+	width: 30px;
+	height: 30px;	
+}
+.sm:hover+.contain{
+	width: 80px;
+	height: 30px;
+	opacity: 1;
+}
+.sm:hover .center{
+   opacity: 1;
+}
+*/
+/*.li a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: red;
+}
+*/
+
+footer dl{
+	position: absolute;
+	width: 100%;
+}
+footer dt{
+  position: absolute;
+  right: 6%;
+}
+footer #dd1{
+	top: 24px;
+	position: absolute;
+	left: 10%;
+	font-size: 14px;
+	
+}
+footer #dd2{
+	position: absolute;
+	left: 12%;
+	top: 44px;
+	font-size: 12px;
+}
+.a{
+	width: 100%;
+	height: 30px;
+	display: block;
+	position: absolute;
+	z-index: 4;
+}
+#bbb{
+	padding-top: 20px;
+}
+
+
+</style>
+</head>
+<body>
+	<nav  class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+    		<a href="#" class="navbar-brand"><span id="logo"></span></a>
+    		<button class="navbar-toggle" data-toggle="collapse" data-target="#myCollapse">
+            	<span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            </div>
+        	<div id="myCollapse" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-left">
+		            <li><a style="color:rgb(194,94,196);" href="#">鬼刀壁纸</a></li>
+	                <li><a style="color:orange;" href="#">4K超清</a></li>
+	                <li><a href="#">手机壁纸</a></li>
+
+		            <li class="dropdown">
+		            	<a dropdown-toggle data-toggle="dropdown" href="#">尺寸<span class="caret"></span></a>
+		            <ul class="dropdown-menu btn-block">
+		            	<li style="text-align: center;"><a href="#">3840*2160</a></li>
+		            	<li style="text-align: center;"><a href="#">2560*1440</a></li>
+		            	 <li style="text-align: center;"><a href="#">1920*1080</a></li>
+		            	 <li style="text-align: center;"><a href="#">1680*1050</a></li>
+		            	 <li style="text-align: center;"><a href="#">1600*900</a></li>
+		            </ul>		      
+		            </li>
+		            <li>
+		            <form class="navbar-form">
+					    <div class="input-group">
+						<input type="text" class="form-control" style=" width:320px; margin-left: 20px;" placeholder="搜索你喜欢的壁纸名">
+						<span class="input-group-addon"><a href="#"><span class="glyphicon glyphicon-search"></span></a></span>
+						</div>
+						</li>
+				    </form>	      	            
+	            </ul>
+
+	            <ul class="nav navbar-nav navbar-right" style="margin-right: 30px;">
+	            	 <li><a href="#"><span class="glyphicon glyphicon-user" style="padding-right:8px;"></span>会员</a></li>
+
+	            	  <li><a href="#">登陆</a></li>
+	            </ul>	            	
+		    </div>	            
+		</div>
+	</nav>
+
+	<div class="container-fluid">
+	    <div class="row" id="content">
+	    	<aside style="padding:0px;" id="as" class="col-lg-4 col-md-4 col-sm-4 hidden-xs affix">
+	    	<div class="main">
+        	<h2 style="display: inline-block;">换个壁纸，换个心情？</h2>
+        	  <button class="d_btn" type="button" class="btn btn-default" style="margin-right:12px; border:1px solid pink;border-radius:30%;color:red;height: 52px;font-size: 26px; outline: none ;width:52px;background:#F0FFF0;letter-spacing: 2px;">go</button>
+        	<ul class="a_ul">
+			<li class="li">	
+				<a class="a" href="#aaa"></a>	 			
+				<div class="sm">				   	
+				<div style="background: pink;" class="center"></div>
+				</div> 
+				<div style="background: pink;" class="contain">巨幕影厅</div>	
+			</li>
+        	
+			<li class="li">	
+			    <a class="a" href="#btn"></a>			
+				<div class="sm">	   	
+				<div style="background: #FFD700;" class="center"></div>	
+				</div>   			   	 
+				<div style="background: #FFD700;" class="contain">分类展示</div>
+			</li>
+			<li class="li">	
+			     <a class="a" href="#bbb"></a>			
+				<div class="sm">	   	
+				<div style="background: #B3EE3A;" class="center"></div>	
+				</div>   			   	 
+				<div style="background: #B3EE3A;" class="contain">成为vip</div>
+			</li>
+			<li class="li">	
+			    <a class="a" href="#ccc"></a>			
+				<div class="sm">	   	
+				<div style="background: #DA70D6;" class="center"></div>	
+				</div>   			   	 
+				<div style="background: #DA70D6;" class="contain">预览模式</div>
+				</li>
+			</li>
+			<li class="li">	
+			    <a class="a" href="#eee"></a>			
+				<div class="sm">	   	
+				<div style="background: #FFEFDB;" class="center"></div>	
+				</div>   			   	 
+				<div style="background: #FFEFDB;" class="contain">下载专区</div>
+			</li>	   		   	
+	   </ul>   
+        	</div>
+
+	   
+	    	</aside>
+	    	<aside style="padding:0px" id="mobie_as" class="visible-xs-block">
+	    		<div class="mo_top">
+	    		<h3>换个壁纸，换个心情？</h3>
+	    		<button class="d_btn" type="button" class="btn btn-default" style="margin-right:12px;border:1px solid pink;border-radius:30%;color:red;height: 30px;font-size: 16px;;line-height: 30px; outline: none ;width:36px;background:#F0FFF0;letter-spacing: 2px;">go</button>
+	    		</div>
+	    		<p class="infor"><span style="color: red;font-size: 13px;font-weight: bold;">简介:</span>
+	    			您好，亲爱的游客！在这里，您会发现许多美丽精致的壁纸,为您的桌面来一场美丽的化装吧！
+	    		</p>
+
+	    	</aside>
+
+	        <section style="padding: 0px;position:relative;border-left: 2px solid #ddd;" class="col-lg-8 col-md-8 col-sm-8 pull-right">
+
+	         <div id="aaa" class="img" style="height: 100%;margin-top: 12px;">	         	
+	         	<div class="list_img" style="width:100%;height:100%;position:relative;top:0px;left:0;overflow: hidden;">
+	         		<img style="width:120%;max-height:100%;position:relative;left: 0%;top: 0px;transition: .5s;z-index: 0;" src="./img/g1.jpg" alt="">
+	         		<img style="width:120%;max-height:100%;position:absolute;left: 120%;top: 0px;transition: .5s;z-index: 1;" src="./img/g2.jpg" alt="">
+	         		<img style="width:120%;max-height:100%;position:absolute;left: 120%;top: 0px;transition: .5s;z-index: 2;" src="./img/g3.jpg" alt="">
+	         		<img style="width:120%;max-height:100%;position:absolute;left: 120%;top: 0px;transition: .5s;z-index: 3;" src="./img/g4.jpg" alt="">
+	         	</div>
+
+		        <button id="btn">
+		         	<img src="https://www.starbucks.com.cn/assets/icons/icon-arrow-white.svg" alt="">
+		        </button>
+	        </div>
+	        <div id="bbb" class="clearfix"></div>
+	        <div  class="list" style="padding-top: 10px;">
+		        <ul class="nav nav-pills nav-justified" style="width:100%;">
+				  <li role="presentation" class="active"><a href="#a" data-toggle="tab">鬼刀</a></li>
+				  <li role="presentation"><a href="#b" data-toggle="tab">风景</a></li>
+				  <li role="presentation"><a href="#c" data-toggle="tab">美女</a></li>
+				</ul>
+				<ul class="tab-content">
+		            <li id="a" class="tab-pane fade in active" >
+		            	<img class="gd" src="./img/g2.jpg" alt="">
+		            	<img class="gd" src="./img/g3.jpg" alt="">
+		            	<img class="gd1" src="./img/g4.jpg" alt="">
+		            </li>
+		            <li id="b" class="tab-pane fade">
+		            	<img class="gd" src="./img/f1.jpg" alt="">
+		            	<img class="gd" src="./img/f2.jpg" alt="">
+		            	<img class="gd1" src="./img/f3.jpg" alt="">
+		            </li>
+		            <li id="c" class="tab-pane fade">
+		            	<img class="gd" src="./img/m1.jpg" alt="">
+		            	<img class="gd" src="./img/m2.jpg" alt="">
+		            	<img class="gd1" src="./img/m3.jpg" alt="">
+		            </li>
+		        </ul>
+			</div>
+            <div id="ccc"></div>
+			<div  class="getVip">
+				<div id="div1" class="vip_content pull-left">
+				<h3>加入我们</h3>
+				<p>开启您的星享之旅，星星越多、会员等级越高、好礼越丰富。</p>
+				<button type="button" class="btn btn-default" style="border-radius: 30%; border:2px solid rgb(194,94,196);color:green; margin-right:22px;">注册</button>
+				<button type="button" class="btn btn-default" style="border-radius: 30%; border:2px solid rgb(194,94,196);color:green;">登陆</button>
+				</div>
+
+				<div id="div2" class="vip_logo pull-left">
+				  
+				</div>
+			
+
+			</div>
+			 <div class="clearfix"></div>
+
+			<div  class="preview">
+				<h3>快来这里预览吧！</h3>
+				<p>在这里发现更多</p>
+				<div class="p_list">
+					<span class="p_span">
+						<img class="p_img" src="./img/zpq.png" alt="">
+						<h3>照片墙模式</h3>
+						<a href="#">点击查看></a>
+					</span>
+					<span class="p_span">
+						<img class="p_img" src="./img/fz.png" alt="">
+						<h3>翻转图模式</h3>
+						<a href="#">点击查看></a>
+					</span>
+					<span class="p_span">
+						<img class="p_img" src="./img/hdp.png" alt="">
+						<h3>幻灯片模式</h3>
+						<a href="#">点击查看></a>
+					</span>	
+				</div>
+																
+			</div>
+            <div class="clearfix"></div>
+			<div id="eee" class="dload">
+				<h3 style="padding-bottom:10px;">下载区域</h3>
+				<p>总有你喜欢那一张</p>
+                 <button class="d_btn" type="button" class="btn btn-default" style="margin-top: 16px; border:2px solid pink;color:red;height: 80px;font-size: 26px; outline: none ;width:40%;background:#F0FFF0;border-radius: 50%;letter-spacing: 4px;margin-bottom: 44px;">我就来看看</button>
+			</div>
+        </section>
+
+	    </div>
+
+    </div>
+    <div class="clearfix"></div>
+    <footer style="width: 100%;background:rgb(251,245,255);height: 66px;">
+    	<dl>
+			<dt>Copyright ©right; 2018 HS Inc. All Rights Reserved</dt>	
+			<dd id="dd1">新浪微博：kimsss.com</dd>
+			<dd id="dd2">联系QQ：123555</dd>
+        </dl>
+
+    	
+    </footer>
+
+
+
+
+</body>
+<script src="js/jquery-1.11.1.js"></script>
+<script src="js/bootstrap.js"></script>
+
+<script>
+	var obtn=document.getElementById('btn');
+	var oimg=document.getElementsByClassName('img')[0];
+	var timer=null;	
+	var div1=document.getElementById('div1');
+	var div2=document.getElementById('div2');
+	var se=document.getElementsByTagName('section')[0];
+	var ali=document.getElementsByClassName("li");
+	var adiv1=document.getElementsByClassName('sm');
+	var adiv2=document.getElementsByClassName('center');
+	var adiv3=document.getElementsByClassName('contain');
+	var num=se.offsetHeight-document.documentElement.clientHeight+50;
+	// var b_img=document.getElementById("b_img");
+	var b_div=document.getElementById("aaa");
+	// var arrimg=["./img/g1.jpg","./img/g2.jpg","./img/g3.jpg","./img/g4.jpg"];
+	
+	
+	var num1=0;
+	var time=null;
+	var b_img=document.getElementsByClassName("list_img")[0];
+	var aimg=b_img.getElementsByTagName("img");
+	var new1=b_img.cloneNode(true);
+	
+	clearInterval(time);
+    time=setInterval(function(){
+    	    num1++;
+        	goleft();
+        },3000);
+
+	obtn.addEventListener("click",function(){
+		clearInterval(time);
+		num1++;
+		goleft();
+		setTimeout(function(){	
+		    clearInterval(time);	
+		    time=setInterval(function(){
+		    	    num1++;
+		        	goleft();
+		        },3000);
+		},1000)
+	},false)
+
+
+	function goleft(){
+		
+		if (num1==4) {
+          num1=0;
+          aimg[2].style.transition="0s";
+          aimg[0].style.left="0";         
+          aimg[3].style.left="-121%";
+          aimg[2].style.left="121%";       
+	    }
+		else if (num1==1) {	
+		aimg[2].style.transition="0.5s";	
+		aimg[3].style.transition="0s";
+		aimg[1].style.left="0%";
+		aimg[0].style.left="-121%";		       				
+		 aimg[3].style.left="121%";	
+	    }
+	    else if (num1==2) {
+	    	aimg[3].style.transition="0.5s";
+            aimg[1].style.left="-121%";
+	    	aimg[2].style.left="0%";
+	    	aimg[0].style.left="121%";
+	    } 
+	    else if (num1==3) {
+	    	aimg[2].style.left="-121%";
+	    	aimg[3].style.left="0%";
+	    	aimg[1].style.left="121%";
+	    }						
+	}
+
+	obtn.addEventListener("mouseover",function(){
+      this.style.right="10px";
+	},false)
+	obtn.addEventListener("mouseout",function(){
+      this.style.right="20px";
+	},false)
+
+
+
+
+
+	obtn.style.top=(oimg.offsetHeight-obtn.offsetHeight)/2+"px";
+		div2.style.height=div1.offsetHeight+"px";
+	window.onresize=function(){
+	  num=se.offsetHeight-document.documentElement.clientHeight+50;
+	  getLi();
+	  clearInterval(timer);
+	  timer=setInterval(function(){
+	  	div2.style.height=div1.offsetHeight+"px";
+		obtn.style.top=(oimg.offsetHeight-obtn.offsetHeight)/2+"px";
+	  },1000/60)
+	}
+
+   
+	
+		
+	
+	var sctop=null;
+
+	toNew(0);
+
+    window.onscroll=getLi;
+
+    for(var i=0;i<ali.length;i++)
+	{
+			ali[i].index=i;
+			ali[i].onoff=true;
+			ali[i].onmouseover=function(){
+				toNew(this.index);
+			}
+			ali[i].onmouseout=function(){
+				toOld(this.index);
+				getLi();
+			}						        
+	}
+
+    function getLi(){
+		 sctop=document.documentElement.scrollTop||document.body.scrollTop;
+           // console.log(num/sctop); 
+		if (num/sctop>4) {         
+	        for(var i=0;i<ali.length;i++)
+		        {
+		          toOld(i);
+		     
+		        }
+            toNew(0);  
+		}
+	
+		else if (num/sctop>1.95) {
+			for(var i=0;i<ali.length;i++)
+		        {
+		           toOld(i);
+		         
+		        }
+			toNew(1);
+		
+		}
+		else if (num/sctop>1.38) {
+			for(var i=0;i<ali.length;i++)
+		        {
+		          toOld(i);
+		          
+		        }
+				toNew(2);
+	    }
+		else if (num/sctop>1.10) {
+			for(var i=0;i<ali.length;i++)
+	        {
+	          toOld(i);
+	        
+	        }
+			toNew(3);			 	
+		}
+		else {
+			for(var i=0;i<ali.length;i++)
+	        {
+	          toOld(i);	          
+	        }
+			toNew(4);		
+		}
+	}
+	
+    function toNew(i){     
+		adiv1[i].style.width="30px";
+		adiv1[i].style.height="30px";
+		adiv2[i].style.opacity="1";
+		adiv3[i].style.width="80px";
+		adiv3[i].style.height="30px";
+		adiv3[i].style.opacity="1";
+    }
+    function toOld(i){  	  
+    	ali[i].onoff=true;
+    	adiv1[i].style.width="10px";
+         adiv1[i].style.height="10px";
+         adiv2[i].style.opacity="0";
+         adiv3[i].style.width="0px";
+         adiv3[i].style.height="0px";
+         adiv3[i].style.opacity="0";
+    }
+
+    // var clik1=document.getElementById("aaa");
+    // var clik2=document.getElementById("bbb");
+    // var clik3=document.getElementById("ccc");
+
+    // clik2.style.paddingTop=clik1.offsetHeight/2+20+"px";
+    //  clik2.style.marginTop=-clik1.offsetHeight/2+"px";
+
+     // clik3.style.paddingTop=clik2.offsetHeight/1.12+"px";
+     // clik3.style.marginTop=-clik2.offsetHeight/1.12+40+"px";
+
+
+	function getStyle( obj, attr ){   //  obj对应对象$('box')   attr属性 对应字符串'width'
+	return obj.currentStyle ? obj.currentStyle[attr] : getComputedStyle( obj )[attr];
+}
+</script>
+</html>

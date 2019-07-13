@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width:device-width,user-scalable=no"/>
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="./life_me.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <script>
+        var html=document.documentElement;
+        var width=html.clientWidth;
+        html.style.fontSize=width/20+"px";//fontSize的值是手机屏幕宽度/20,20是你决定的随机数
+    </script>
+</head>
+<body>
+    <section class="life_me">
+        <header>
+            <div class="title_wrap">
+                <div class="title">
+                    <button class="h_left">
+                        <img src="../img/kefu.png" alt="">
+                    </button>
+                    <span>
+                    聚赢生活
+                </span>
+                    <button class="h_right">
+                        <img src="../img/xiaoxi.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="pay_repay">
+                <div class="pay">
+                    <img src="../img/repay.png" alt="">
+                    <span>在线收款</span>
+                </div>
+
+                <div class="repay">
+                    <img src="../img/pay.png" alt="">
+                    <span>在线还款</span>
+                </div>
+            </div>
+        </header>
+
+        <article>
+            <ul class="items">
+                <li>
+                    <img src="../img/shoukuan.png" alt="">
+                    <span>快捷收款</span>
+                </li>
+                <li>
+                    <img src="../img/zhineng.png" alt="">
+                    <span>智能规划</span>
+                </li>
+                <li>
+                    <img src="../img/xinyongka.png" alt="">
+                    <span>信用卡中心</span>
+                </li>
+                <li>
+                    <img src="../img/daoshua.png" alt="">
+                    <span>盗刷保险</span>
+                </li>
+                <li>
+                    <img src="../img/daikuan.png" alt="">
+                    <span>贷款中心</span>
+                </li>
+                <li>
+                    <img src="../img/banka.png" alt="">
+                    <span>办卡进度</span>
+                </li>
+                <li>
+                    <img src="../img/shangcheng.png" alt="">
+                    <span>商城中心</span>
+                </li>
+                <li>
+                    <img src="../img/shuaka.png" alt="">
+                    <span>刷卡提额</span>
+                </li>
+            </ul>
+
+            <div class="swiper-container" >
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="../img/lunbo.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/lunbo.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/lunbo.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/lunbo.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </article>
+
+        <footer>
+            <ul>
+                <li>
+                    <img src="../img/footer_main.png" alt="">
+                    <span>首页</span>
+                </li>
+                <li>
+                    <img src="../img/footer_huankuan.png" alt="">
+                    <span>还款计划</span>
+                </li>
+                <li>
+                    <img src="../img/footer_tuiguang.png" alt="">
+                </li>
+                <li>
+                    <img src="../img/footer_shouyi.png" alt="">
+                    <span>收益</span>
+                </li>
+                <li>
+                    <img src="../img/footer_me.png" alt="">
+                    <span>我的</span>
+                </li>
+            </ul>
+        </footer>
+
+    </section>
+</body>
+<script src="../js/swiper.min.js"></script>
+<script>
+    new Swiper('.swiper-container', {
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+        }
+    })
+</script>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width:device-width,user-scalable=no"/>
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="./join_vip.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <script>
+        var html=document.documentElement;
+        var width=html.clientWidth;
+        html.style.fontSize=width/20+"px";//fontSize的值是手机屏幕宽度/20,20是你决定的随机数
+    </script>
+</head>
+<body>
+    <section class="join_vip">
+        <header>
+            <div class="j_title_wrap">
+                <div class="join_title">
+                    <button class="left_back">
+                        <img src="../img/join_vip_back.png" alt="">
+                    </button>
+                    <strong>会员权益</strong>
+                    <span>权益说明</span>
+                </div>
+            </div>
+            <div class="avatar_info">
+                <div class="avatar">
+
+                </div>
+
+                <div class="not_vip_info">
+                    <div>
+                        <span>150****3215</span>
+                        <i></i>
+                    </div>
+                    <p>未开通尊贵会员</p>
+                </div>
+
+                <!--<div class="vip_info">-->
+                    <!--<div>-->
+                        <!--<span>150****3215</span>-->
+                        <!--<i></i>-->
+                    <!--</div>-->
+                    <!--<p>2019.06.23 到期</p>-->
+                <!--</div>-->
+            </div>
+        </header>
+
+        <section class="items">
+
+            <div class="swiper-container" >
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <ul class="main">
+                            <li>
+                                <img src="../img/tuiguang.png" alt="">
+                                <span>推广收益</span>
+                            </li>
+                            <li>
+                                <img src="../img/zhinenghuankuan.png" alt="">
+                                <span>智能还款</span>
+                            </li>
+                            <li>
+                                <img src="../img/fenrun.png" alt="">
+                                <span>分润收益</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <ul class="main">
+                            <li>
+                                <img src="../img/tuiguang.png" alt="">
+                                <span>推广收益</span>
+                            </li>
+                            <li>
+                                <img src="../img/zhinenghuankuan.png" alt="">
+                                <span>智能还款</span>
+                            </li>
+                            <li>
+                                <img src="../img/fenrun.png" alt="">
+                                <span>分润收益</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+
+            <!--<ul class="identification">-->
+                <!--<li class="on"></li>-->
+                <!--<li></li>-->
+
+            <!--</ul>-->
+
+        </section>
+
+        <section class="vip">
+            <ul>
+                <li>
+                    <span>信用卡账单全面还款轻松度过账单日；</span>
+                </li>
+                <li>
+                    <span>即时到账：还款资金执行完还款，即时回款到信用卡；</span>
+                </li>
+                <li>
+                    <span>支持各大银行的信用卡还款；</span>
+                </li>
+                <li>
+                    <span>使用便捷：手机APP一键搞定，隐私保密；</span>
+                </li>
+                <li>
+                    <span>还款利率：聚赢生活每万元手续费可低至48元。</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="join">
+            <div class="title">
+                <img src="../img/hezuo.png" alt="">
+            </div>
+            <div class="banks">
+                <img src="../img/bank.png" alt="">
+            </div>
+
+            <button class="join_btn">
+                <img src="../img/joinus.png" alt="">
+            </button>
+
+            <!--<button class="vip_btn">-->
+                <!--<img src="../img/is_vip_btn.png" alt="">-->
+            <!--</button>-->
+
+        </section>
+    </section>
+
+    <!--<section class="toast">-->
+        <!--<div class="wrap"></div>-->
+        <!--<div class="inner">-->
+            <!--<div class="close"></div>-->
+
+            <!--<div class="title">-->
+                <!--<img src="../img/huangguan.png" alt="">-->
+                <!--<span>开通抢先新功能</span>-->
+                <!--<img src="../img/huangguan.png" alt="">-->
+            <!--</div>-->
+
+            <!--<p>-->
+                <!--·VIP会员可优先体验新推出的新功能-->
+            <!--</p>-->
+            <!--<button>-->
+                <!--<img src="../img/go_vip.png" alt="">-->
+            <!--</button>-->
+        <!--</div>-->
+    <!--</section>-->
+</body>
+<script src="../js/swiper.min.js"></script>
+<script>
+    new Swiper('.swiper-container', {
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+        }
+    })
+</script>
+</html>

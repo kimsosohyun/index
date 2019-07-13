@@ -1,0 +1,279 @@
+.j_title_wrap {
+  width: 100%;
+  height: 2.96296296rem;
+  background: url("../img/join_vip_bg.png");
+  background-size: cover;
+}
+.j_title_wrap .join_title {
+  position: relative;
+  padding-top: 0.62962963rem;
+  text-align: center;
+  line-height: 2.35185185rem;
+}
+.j_title_wrap .join_title span {
+  letter-spacing: 0.07407407rem;
+  top: 0.62962963rem;
+  right: 0.92592593rem;
+  position: absolute;
+  font-size: 0.74074074rem;
+  display: block;
+  font-family: "SourceHanSansCN";
+  color: #ffffff;
+}
+.j_title_wrap .join_title strong {
+  font-weight: normal;
+  letter-spacing: 0.18518519rem;
+  font-size: 0.92592593rem;
+  font-family: "SourceHanSansCN";
+  color: #ffffff;
+}
+.j_title_wrap .join_title .left_back {
+  position: absolute;
+  top: 0.62962963rem;
+  left: 0.22222222rem;
+  width: 1.96296296rem;
+  height: 2.35185185rem;
+}
+.j_title_wrap .join_title .left_back img {
+  padding: 0.74074074rem;
+  width: 0.48148148rem;
+  height: 0.96296296rem;
+}
+.join_vip {
+  background: #f5f5f5;
+}
+.join_vip header {
+  position: relative;
+  z-index: 2;
+  height: 10rem;
+  background: url("../img/join_vip_bg.png");
+  background-size: cover;
+}
+.join_vip header .avatar_info {
+  position: absolute;
+  width: 100%;
+  top: 2.96296296rem;
+  height: 7.03703704rem;
+}
+.join_vip header .avatar_info .avatar {
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: absolute;
+  top: 1.33333333rem;
+  right: 1.44444444rem;
+  width: 1.7037037rem;
+  height: 1.7037037rem;
+}
+.join_vip header .avatar_info .avatar img {
+  width: 1.7037037rem;
+  height: 1.7037037rem;
+}
+.join_vip header .avatar_info .not_vip_info div,
+.join_vip header .avatar_info .vip_info div {
+  position: absolute;
+  top: 2.27777778rem;
+  right: 3.40740741rem;
+  line-height: 0.55555556rem;
+}
+.join_vip header .avatar_info .not_vip_info div span,
+.join_vip header .avatar_info .vip_info div span {
+  font-size: 0.62962963rem;
+  font-family: "JHeiTi";
+  color: #e89e0b;
+}
+.join_vip header .avatar_info .not_vip_info i,
+.join_vip header .avatar_info .vip_info i {
+  display: inline-block;
+  width: 0.88888889rem;
+  height: 0.55555556rem;
+}
+.join_vip header .avatar_info .not_vip_info p,
+.join_vip header .avatar_info .vip_info p {
+  letter-spacing: 0.03703704rem;
+  position: absolute;
+  top: 4.33333333rem;
+  margin: 0;
+  right: 1.59259259rem;
+  font-size: 0.74074074rem;
+  font-family: "SourceHanSansCN";
+  color: #ab9a6f;
+}
+.join_vip header .avatar_info .not_vip_info i {
+  background: url("../img/not_vip.png");
+  background-size: cover;
+}
+.join_vip header .avatar_info .vip_info i {
+  background: url("../img/is_vip.png");
+  background-size: cover;
+}
+.join_vip .items {
+  position: relative;
+  z-index: 1;
+  top: -1.5rem;
+  width: 100%;
+  height: 7.74074074rem;
+  background: #47443e;
+}
+.join_vip .items .main {
+  padding-top: 2.55555556rem;
+  width: 100%;
+  height: 5.18518519rem;
+  display: flex;
+}
+.join_vip .items .main li {
+  flex: 1;
+  text-align: center;
+}
+.join_vip .items .main li img {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: block;
+  margin: 0 auto;
+}
+.join_vip .items .main li span {
+  line-height: 1.55555556rem;
+  font-size: 0.62962963rem;
+  letter-spacing: 0.03703704rem;
+  font-family: "JZunYuan";
+  color: rgba(252, 230, 180, 0.702);
+}
+.join_vip .items .swiper-pagination-bullet {
+  width: 0.37037037rem;
+  height: 0.37037037rem;
+  background: white;
+}
+.join_vip .items .swiper-pagination-bullet-active {
+  background: #f3dba4;
+}
+.join_vip .vip {
+  margin: -0.51851852rem auto 0;
+  background: url("../img/vip_bg.png");
+  width: 17.81481481rem;
+  height: 11.22222222rem;
+  background-size: cover;
+}
+.join_vip .vip ul {
+  padding-top: 2.7037037rem;
+}
+.join_vip .vip ul li {
+  width: 90%;
+  margin-left: 1.2962963rem;
+  height: 0.88888889rem;
+  list-style: disc;
+  line-height: 0.88888889rem;
+  margin-bottom: 0.72222222rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.join_vip .vip ul li span {
+  font-size: 0.62962963rem;
+  letter-spacing: 0.03703704rem;
+  font-family: "JZunYuan";
+  color: #47443c;
+}
+.join_vip .join {
+  position: relative;
+  width: 100%;
+  margin-top: 1.16666667rem;
+  height: 9.81481481rem;
+}
+.join_vip .join .title {
+  width: 10rem;
+  height: 0.66666667rem;
+  margin: 0 auto;
+}
+.join_vip .join .title img {
+  width: 9.74074074rem;
+  height: 0.66666667rem;
+}
+.join_vip .join .banks {
+  margin: 0.74074074rem auto 0;
+  width: 16.2037037rem;
+  height: 3.90740741rem;
+}
+.join_vip .join .banks img {
+  width: 16.2037037rem;
+  height: 3.90740741rem;
+}
+.join_vip .join .join_btn,
+.join_vip .join .vip_btn {
+  position: absolute;
+  left: 2.38888889rem;
+  bottom: 1.25925926rem;
+  width: 14.90740741rem;
+  height: 2.53703704rem;
+}
+.join_vip .join .join_btn img,
+.join_vip .join .vip_btn img {
+  width: 14.90740741rem;
+  height: 2.53703704rem;
+}
+.toast .wrap {
+  z-index: 3;
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  bottom: -3.7037037rem;
+  right: 0;
+  background: black;
+  opacity: 0.5;
+}
+.toast .inner {
+  z-index: 4;
+  position: absolute;
+  left: 2.7037037rem;
+  top: 13.59259259rem;
+  width: 14.64814815rem;
+  height: 12.24074074rem;
+  background: url("../img/toast_bg.png");
+  background-size: 100%;
+}
+.toast .inner .close {
+  width: 0.62962963rem;
+  height: 0.62962963rem;
+  background: url("../img/close.png");
+  background-size: cover;
+  position: absolute;
+  top: 0.55555556rem;
+  right: 0.46296296rem;
+}
+.toast .inner .title {
+  padding-top: 1.96296296rem;
+  text-align: center;
+  line-height: 1.38888889rem;
+}
+.toast .inner .title img {
+  width: 1.48148148rem;
+  height: 1.38888889rem;
+}
+.toast .inner .title span {
+  font-size: 1.11111111rem;
+  font-family: "SourceHanSansCN";
+  color: #996f22;
+  letter-spacing: 0.03703704rem;
+}
+.toast .inner p {
+  margin: 0;
+  padding-top: 0.68518519rem;
+  padding-left: 1.2037037rem;
+  padding-right: 1.2037037rem;
+  line-height: 1.33333333rem;
+  font-size: 0.85185185rem;
+  letter-spacing: 0.05555556rem;
+  font-family: "SourceHanSansCN";
+  color: #996f22;
+}
+.toast .inner button {
+  margin: 1.81481481rem auto;
+  display: block;
+  border-radius: 0.2962963rem;
+  width: 9.94444444rem;
+  height: 2.51851852rem;
+}
+.toast .inner button img {
+  width: 9.94444444rem;
+  height: 2.51851852rem;
+}
+/*# sourceMappingURL=join_vip.css.map */

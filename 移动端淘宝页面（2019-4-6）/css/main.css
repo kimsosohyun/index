@@ -1,0 +1,293 @@
+body {
+  margin: 0;
+}
+.discount header {
+  width: 7.5rem;
+  height: 0.72rem;
+}
+.discount header .back {
+  width: 0.56rem;
+  height: 0.72rem;
+  float: left;
+  background: white;
+  margin-left: 0.18rem;
+}
+.discount header .back img {
+  width: 0.21rem;
+  height: 0.36rem;
+}
+.discount header .listen {
+  width: 0.76rem;
+  height: 0.72rem;
+  float: right;
+  background: white;
+  margin-right: 0.36rem;
+}
+.discount header .listen img {
+  width: 0.4rem;
+  height: 0.38rem;
+}
+.discount header span {
+  width: 5.62rem;
+  text-align: center;
+  float: left;
+  margin-top: 0.18rem;
+  font-size: 0.28rem;
+  font-family: "黑体";
+  line-height: 0.36rem;
+}
+.discount article {
+  width: 7.5rem;
+  background: #f2f2f4;
+}
+.discount article .click {
+  overflow: hidden;
+  width: 7.5rem;
+  height: 2.62rem;
+  position: relative;
+}
+.discount article .click .clickMe {
+  width: 1.02rem;
+  height: 1.04rem;
+  position: absolute;
+  top: 0.76rem;
+  left: 5.33rem;
+}
+.discount article .main {
+  width: 6.41rem;
+  margin-left: 0.56rem;
+  margin-right: 0.56rem;
+}
+.discount article .main .get {
+  position: relative;
+  line-height: 0.45rem;
+  text-align: center;
+}
+.discount article .main .get .left {
+  border-width: 0.01rem;
+  border-color: #440062;
+  border-style: dashed;
+  position: absolute;
+  left: 0rem;
+  top: 50%;
+  width: 2.1rem;
+  height: 0rem;
+  z-index: 121;
+}
+.discount article .main .get span {
+  font-size: 0.28rem;
+  letter-spacing: 0.02rem;
+  font-family: "宋体";
+}
+.discount article .main .get .right {
+  border-width: 0.01rem;
+  border-color: #440062;
+  border-style: dashed;
+  position: absolute;
+  right: 0rem;
+  top: 50%;
+  width: 2.1rem;
+  height: 0rem;
+  z-index: 121;
+}
+.discount article .main .vip_list {
+  margin-top: 0.28rem;
+}
+.discount article .main .vip_list li img {
+  margin-top: 0.2rem;
+}
+.discount article .main .vip_list li p {
+  margin-left: 0.3rem;
+  line-height: 0.4rem;
+  font-size: 0.3rem;
+  font-family: "Adobe 黑体 Std";
+}
+.discount article .main .vip_list li .p_top p:first-child {
+  margin-top: 0.22rem;
+}
+.discount article .main .vip_list li .p_bottom p {
+  color: #31004a;
+}
+.discount article .main .vip_list li .p_bottom p:first-child {
+  margin-top: 0.18rem;
+}
+.discount article .main .vip_list li .p_bottom p:last-child {
+  padding-bottom: 0.7rem;
+}
+.discount footer {
+  background: #f2f2f4;
+  width: 7.5rem;
+  height: 0.96rem;
+}
+.discount footer p {
+  display: block;
+  padding-top: 0.14rem;
+  font-family: "黑体";
+  color: #707070;
+  font-size: 0.24rem;
+  line-height: 0.3rem;
+  text-align: center;
+}
+.special header {
+  background: white;
+  width: 7.5rem;
+}
+.special header .top_bar {
+  position: relative;
+}
+.special header .top_bar .back {
+  border-radius: 50%;
+  position: absolute;
+  left: 0.19rem;
+  top: 0.19rem;
+  width: 0.55rem;
+  height: 0.55rem;
+  z-index: 6;
+  background: url("../img/s_back.png"), #5f5f5f;
+  background-size: 111%;
+  background-position: -0.03rem -0.01rem;
+}
+.special header .top_bar .listen {
+  border-radius: 50%;
+  position: absolute;
+  left: 6.75rem;
+  top: 0.19rem;
+  width: 0.55rem;
+  height: 0.55rem;
+  z-index: 7;
+  background: url("../img/s_listen.png"), #5f5f5f;
+  background-size: 100%;
+}
+.special header .bottom_bar {
+  padding-top: 0.46rem;
+  margin-left: 0.31rem;
+  margin-right: 0.31rem;
+  padding-bottom: 0.38rem;
+}
+.special header .bottom_bar p {
+  font-size: 0.28rem;
+  letter-spacing: 0.03rem;
+  line-height: 0.38rem;
+  font-family: "Adobe 黑体 Std";
+}
+.special article {
+  padding-top: 0.2rem;
+  margin-bottom: 0.87rem;
+  width: 7.5rem;
+}
+.special article .main_list {
+  width: 7.5rem;
+}
+.special article .main_list li {
+  margin-top: 0.22rem;
+  background: white;
+  width: 7.5rem;
+}
+.special article .main_list li img {
+  padding-top: 0.14rem;
+  width: 7.2rem;
+  margin: 0 auto 0.16rem;
+  display: block;
+}
+.special article .main_list li .content span {
+  display: block;
+  margin-left: 0.34rem;
+  font-size: 0.26rem;
+  line-height: 0.38rem;
+  letter-spacing: 0.01rem;
+  font-family: "Courier New";
+}
+.special article .main_list li .content span:last-child {
+  padding-bottom: 0.38rem;
+}
+.share {
+  width: 7.5rem;
+  height: 100vh;
+  background: url("../img/bg.jpg");
+  background-size: 100% 100%;
+}
+.share header {
+  padding-top: 0.35rem;
+}
+.share header img {
+  margin-left: 0.43rem;
+  width: 0.4rem;
+  height: 0.42rem;
+}
+.share header span {
+  margin-left: 0.18rem;
+  font-size: 0.3rem;
+  line-height: 0.42rem;
+  color: white;
+  letter-spacing: 0.02rem;
+}
+.share article {
+  margin-top: 0.88rem;
+}
+.share article .fonts img {
+  width: 7.5rem;
+}
+.share article .fonts span {
+  display: block;
+  padding-top: 0.1rem;
+  text-align: center;
+  color: white;
+  line-height: 0.52rem;
+  font-size: 0.4rem;
+  font-family: "黑体";
+  letter-spacing: 0.12rem;
+}
+.share article .downLoad {
+  margin-top: 0.68rem;
+  position: relative;
+}
+.share article .downLoad img {
+  position: absolute;
+  left: 1rem;
+  width: 1.72rem;
+  height: 1.72rem;
+}
+.share article .downLoad button {
+  border-radius: 0.2rem;
+  background-color: #ffffff;
+  position: absolute;
+  left: 3.1rem;
+  width: 3.12rem;
+  height: 0.72rem;
+  z-index: 54;
+}
+.share article .downLoad button:nth-of-type(1) {
+  top: 0.05rem;
+}
+.share article .downLoad button:nth-of-type(1) img {
+  width: 0.38rem;
+  height: 0.46rem;
+  position: absolute;
+  top: 0.11rem;
+  left: 0.31rem;
+}
+.share article .downLoad button:nth-of-type(1) span {
+  vertical-align: center;
+  font-size: 0.28rem;
+  padding-left: 0.7rem;
+  font-family: "Adobe 黑体 Std";
+  letter-spacing: 0.02rem;
+}
+.share article .downLoad button:nth-of-type(2) {
+  top: 0.9rem;
+}
+.share article .downLoad button:nth-of-type(2) img {
+  width: 0.38rem;
+  height: 0.46rem;
+  position: absolute;
+  top: 0.1rem;
+  left: 0.28rem;
+}
+.share article .downLoad button:nth-of-type(2) span {
+  vertical-align: center;
+  font-size: 0.28rem;
+  padding-left: 0.64rem;
+  font-family: "Adobe 黑体 Std";
+  letter-spacing: 0.02rem;
+}
+/*# sourceMappingURL=main.css.map */

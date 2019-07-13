@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width:device-width,user-scalable=no"/>
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="./open_vip.css">
+    <script>
+        var html=document.documentElement;
+        var width=html.clientWidth;
+        html.style.fontSize=width/20+"px";//fontSize的值是手机屏幕宽度/20,20是你决定的随机数
+    </script>
+</head>
+<body>
+    <section class="open_vip">
+        <header>
+            <button class="back">
+                <img src="../img/back_jiantou.png" alt="">
+            </button>
+
+            <span>
+                开通尊贵会员
+            </span>
+
+        </header>
+
+        <article>
+            <div class="money">
+                <span>支付金额</span>
+                <strong>￥48.00</strong>
+            </div>
+
+            <div class="methods">
+                <ul>
+                    <li>
+                        <img src="../img/zhifubao.png" alt="">
+                        <div class="m_info">
+                            <span>支付宝支付</span>
+                            <p>推荐安装最新版支付宝，支付更加便捷</p>
+                        </div>
+                        <button class="choose_on"></button>
+                    </li>
+                    <li>
+                        <div class="solid"></div>
+
+                        <img src="../img/wx.png" alt="">
+                        <div class="m_info">
+                            <span>微信支付</span>
+                            <p>推荐安装最新版微信，支付更加便捷</p>
+                        </div>
+                        <button class="choose_off"></button>
+                    </li>
+                    <li>
+                        <div class="solid"></div>
+
+                        <img src="../img/yinghangka.png" alt="">
+                        <div class="m_info">
+                            <span>银行卡支付</span>
+                            <p>服务由银联支付提供，需开通网银</p>
+                        </div>
+                        <button class="choose_off"></button>
+                    </li>
+                </ul>
+            </div>
+
+
+            <button class="submit">
+                <img src="../img/submit.png" alt="">
+            </button>
+        </article>
+    </section>
+</body>
+</html>

@@ -1,0 +1,227 @@
+@r:54rem;//@rem的值就是设计稿的宽度/20,20是同footSize算法的20
+.v_title_wrap{
+  height: 160/@r;
+  background-size:100%;
+  background: url("../img/me_main_header.png");
+  background-position: -40/@r -10/@r;
+  .v_title{
+    padding-top: 34/@r;
+    text-align: center;
+    strong{
+      font-size: 50/@r;
+      color: white;
+      line-height: 126/@r;
+      letter-spacing: 16/@r;
+    }
+  }
+}
+.me_main{
+  background: white;
+  header{
+    width: 100%;
+    height: 484/@r;
+    background: url("../img/me_main_header.png");
+    background-size: cover;
+    .content_wrap{
+      width: 100%;
+      height: 324/@r;
+      position: absolute;
+      top: 160/@r;
+      .avatar{
+        margin-top: 25/@r;
+        width:158/@r;
+        height: 158/@r;
+        background: white;
+        margin-left: 74/@r;
+        margin-right: 54/@r;
+        border-radius: 50%;
+        overflow: hidden;
+        float: left;
+        img{
+          width:158/@r;
+          height: 158/@r;
+        }
+      }
+      .v_info{
+        position: relative;
+        margin-top: 50/@r;
+        span{
+          line-height: 46/@r;
+          font-size: 38/@r;
+          color: white;
+          font-family: "JHeiTi";
+        }
+        .vip{
+          position: absolute;
+          left: 522.213/@r;
+          top: 12.14/@r;
+          display: block;
+          width: 70/@r;
+          height: 44/@r;
+          background: url("../img/VIP_icon.png");
+          background-size: contain;
+        }
+        p{
+          padding: 0;
+          margin-top: 20/@r;
+          font-size: 32/@r;
+          line-height: 48/@r;
+          color: rgb(203,221,255);
+          font-family: "SourceHanSansCN";
+        }
+      }
+      .renew{
+        width:204/@r;
+        height: 80/@r;
+        background: white;
+        outline: none;
+        float: right;
+        border-radius: 38/@r;
+        position: absolute;
+        left: 796/@r;
+        top: 69/@r;
+        img{
+          width:204/@r;
+          height: 80/@r;
+        }
+      }
+    }
+
+  }
+  .privilege{
+    background: white;
+    margin-top: 80/@r;
+    .p_title{
+      img{
+        margin: 0 auto;
+        width: 326/@r;
+        height: 42/@r;
+        display: block;
+      }
+    }
+    .p_main{
+      width: 100%;
+      display: flex;
+      margin-top: 66/@r;
+      //width: 134px;
+      //height: 133px;
+      li{
+        flex: 1;
+        text-align: center;
+        img{
+          margin: 0 auto;
+          display: block;
+          width:134/@r;
+          height: 134/@r;
+        }
+        span{
+          letter-spacing: 2/@r;
+          margin-top: 30/@r;
+          margin-bottom: 46/@r;
+          display: block;
+          font-size: 32/@r;
+          font-family: "JZunYuan";
+          color: rgba( 51, 51, 51, 0.702 );
+          line-height: 50/@r;
+        }
+      }
+    }
+  }
+  article{
+    margin-bottom: 170/@r;
+    width: 100%;
+    background:rgb(245,245,245);
+    padding-top: 30/@r;
+    .man{
+      display: inline;
+      img{
+        margin-top:45/@r ;
+        margin-left: 50/@r;
+        height: 50/@r;
+        width: 50/@r;
+      }
+    }
+    span{
+      margin-left: 42/@r;
+      font-size: 42/@r;
+      font-family: "JHeiTi";
+      font-weight: bold;
+      color: rgb( 51, 51, 51 );
+      line-height: 140/@r;
+    }
+    .jiantou{
+      float: right;
+      margin-top: 48/@r;
+      margin-right: 54/@r;
+      img{
+        width: 20/@r;
+        height: 36/@r;
+      }
+    }
+
+    .myCard{
+      width: 100%;
+      height: 140/@r;
+      background: white;
+    }
+    .three_1{
+      margin-top: 16/@r;
+      width: 100%;
+    }
+    li{
+      width: 100%;
+      height: 140/@r;
+      background: white;
+    }
+    .two_2{
+      margin-top: 20/@r;
+      width: 100%;
+    }
+    .three_3{
+      margin-top: 24/@r;
+      width: 100%;
+    }
+  }
+  footer{
+    border-top: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    width: 100%;
+    height: 170/@r;
+    position: fixed;
+    bottom: 0;
+    ul{
+      background: white;
+      display: flex;
+      width: 100%;
+      height: 170/@r;
+      li:nth-of-type(1),li:nth-of-type(2),li:nth-of-type(4),li:nth-of-type(5){
+        flex: 1;
+        text-align: center;
+        img{
+          display:block;
+          margin: 32/@r auto 0;
+          width: 70/@r;
+          height: 66/@r;
+        }
+        span{
+          padding-top: 14/@r;
+          display: block;
+          font-size: 36/@r;
+          line-height: 50/@r;
+          //padding-bottom: 10/@r;
+          font-family: "JZunYuan";
+          color: rgb( 32, 32, 32 );
+        }
+      }
+      li:nth-of-type(3){
+        flex: 1;
+        position: relative;
+        bottom: 24/@r;
+        img{
+          width: 188/@r;
+          height: 188/@r;
+        }
+      }
+    }
+  }
+}

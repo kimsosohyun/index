@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>brands</title>
+	<style>
+body{
+  width: 1260px;
+  margin: 0 auto;
+}
+ul{
+	padding: 0px;
+	margin: 0px;
+}
+li{
+	list-style: none;
+}
+.clear{
+	clear: both;
+}
+#top{	
+	height: 162px;
+	margin: 0 auto;
+	position: relative;
+}
+#logo{
+	margin-top: 58px;
+	margin-left: 36px;
+	}
+#top_menu{
+	width: 860px;
+    height: 32px;
+    position: absolute;
+    top: 72px;
+    left: 400px;
+}	
+.left{
+	font-size: 14px;
+	float: left;
+	line-height: 32px;
+	margin-right: 40px;
+}
+#right{
+	font-size: 12px;
+	position: absolute;
+	right: 42px;
+	line-height: 32px;
+}	
+#top_menu a{
+	text-decoration: none;
+	color: black;
+}
+#top_menu a:hover{
+	color: red;
+	}
+#top_menu #active1{
+	display: block;
+	border-bottom: 2px solid red;
+	color: red;
+}
+#img{
+overflow: hidden;
+font-size:0;
+height: 400px;
+ position: relative;
+}
+#click{
+position: absolute;
+bottom:13px;
+right: 67px;
+height: 16px;
+}
+#img .li1{
+	width: 8px;
+	height: 8px;
+	margin-top: 3px;
+	margin-right:10px; 
+	float: left;
+	border-radius: 10px;
+	border:1px solid #A9A9A9;
+}
+#img #active2{
+	background:#A9A9A9;
+}
+#img1,#img2{
+position: relative;
+}
+#img3{
+	position: relative;
+	bottom:1200px;
+}
+#main{
+	height: 1336px;
+	width: 1300px;
+	margin-top: 36px;
+	margin-bottom: 26px;	
+}
+
+.list{
+	position: relative;
+	width: 400px;
+	height: 400px;
+	float: left;
+	margin-bottom: 40px;
+	margin-right: 26px;
+}
+
+.show{
+	display: none;
+	position: absolute;
+	width: 300px;
+	height: 196px;
+	background: white;
+	top: 104px;
+	left: 50px;
+	opacity: 0.9;
+}
+.span1{
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 48px;
+    text-align: center;
+}
+.span2{
+	display: block;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 4px;
+
+}
+.show1{
+	width: 200px;
+	height:38px;
+	margin: 28px auto;
+	position: relative;
+
+}
+.li2,.li4{
+	width: 38px;
+	height: 38px;
+	position: absolute;
+	border-radius: 38px;
+    background: #EE2C2C;
+    z-index: 0;
+}
+.li3{
+	width: 162px;
+	z-index: 1;
+	height: 38px;
+	background: #ee2c2c;
+	position: absolute;
+	left: 19px;
+}
+.li3 a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	display: block;
+	line-height: 38px;
+	font-size: 18px;
+}
+.li2{
+	top: 0px;
+	left: 0px;
+}
+.li4{
+	top: 0px;
+    right: 0px;
+}
+
+#but{
+	width: 302px;
+	height: 62px;
+	border:1px solid #A9A9A9;
+	margin: 0 auto;
+	line-height: 62px;
+	font-size: 18px;
+	text-align: center;
+}
+#return{
+	text-decoration: none;
+	color: black;
+}
+#footer{
+	color: #696969 ;
+	margin-top: 100px;
+	height: 164px;
+}
+#footer dl{
+	position: relative;
+}
+#footer dt{
+  position: absolute;
+   right: 0px;
+}
+#footer #dd1{
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	left: 0px;
+	font-size: 10px;
+	
+}
+#footer #dd2{
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	left: 0px;
+	top: 38px;
+	font-size: 10px;
+}
+
+
+
+
+	</style>
+</head>
+<body>
+	<div id="top">
+		<img id="logo" src="./images/logo.png" alt="">
+		<ul id="top_menu">
+			<li class="left"><a href="#">ARTICLES</a></li>
+			<li class="left"><a id="active1" href="#">BRANDS</a></li>
+			<li class="left"><a href="#">ABOUT</a></li>
+			<li class="left"><a href="#">CAREERS</a></li>
+			<li id="right"><a href="#">LOGIN</a></li>
+		</ul>
+	</div>
+	
+
+	<div id="img">
+		<img id="img1" src="./images/banner.jpg" alt="">
+		<img id="img2" src="./images/banner.jpg" alt="">
+		<img id="img3" src="./images/banner.jpg" alt="">
+		<ul id="click">
+			<li class="li1" id="active2"></li>
+			<li class="li1"></li>
+			<li class="li1"></li>
+		</ul>		
+	</div>	
+
+    <div id="main">
+    	<ul>
+    		<li class="list">
+    			<img src="./images/temp001.jpg" alt="">  
+                <div class="show">
+                	<span class="span1">TITLE</span>
+                	<span class="span2">DESIGN</span>
+                	<ul class="show1">
+                		<li class="li2"></li>
+                		<li class="li3"><a href="#">View the details</a></li>
+                		<li class="li4"></li>
+                	</ul>
+                </div>
+    		</li>
+
+    		<li class="list">
+    			<img src="./images/temp001.jpg" alt="">  
+                <div class="show">
+                	<span class="span1">TITLE</span>
+                	<span class="span2">DESIGN</span>
+                	<ul class="show1">
+                		<li class="li2"></li>
+                		<li class="li3"><a href="#">View the details</a></li>
+                		<li class="li4"></li>
+                	</ul>
+                </div>
+    		</li>
+
+    		<li class="list">
+    			<img src="./images/temp001.jpg" alt="">  
+                <div class="show">
+                	<span class="span1">TITLE</span>
+                	<span class="span2">DESIGN</span>
+                	<ul class="show1">
+                		<li class="li2"></li>
+                		<li class="li3"><a href="#">View the details</a></li>
+                		<li class="li4"></li>
+                	</ul>
+                </div>
+    		</li>
+
+    		<li class="list">
+    			<img src="./images/temp001.jpg" alt="">  
+                <div class="show">
+                	<span class="span1">TITLE</span>
+                	<span class="span2">DESIGN</span>
+                	<ul class="show1">
+                		<li class="li2"></li>
+                		<li class="li3"><a href="#">View the details</a></li>
+                		<li class="li4"></li>
+                	</ul>
+                </div>
+    		</li>
+
+    		<li class="list">
+    			<img src="./images/temp001.jpg" alt="">  
+                <div class="show">
+                	<span class="span1">TITLE</span>
+                	<span class="span2">DESIGN</span>
+                	<ul class="show1">
+                		<li class="li2"></li>
+                		<li class="li3"><a href="#">View the details</a></li>
+                		<li class="li4"></li>
+                	</ul>
+                </div>
+    		</li>
+
+    		<li class="list">
+    			<img src="./images/temp001.jpg" alt="">  
+                <div class="show">
+                	<span class="span1">TITLE</span>
+                	<span class="span2">DESIGN</span>
+                	<ul class="show1">
+                		<li class="li2"></li>
+                		<li class="li3"><a href="#">View the details</a></li>
+                		<li class="li4"></li>
+                	</ul>
+                </div>
+    		</li>
+
+    		<li class="list">
+    			<img src="./images/temp001.jpg" alt="">  
+                <div class="show">
+                	<span class="span1">TITLE</span>
+                	<span class="span2">DESIGN</span>
+                	<ul class="show1">
+                		<li class="li2"></li>
+                		<li class="li3"><a href="#">View the details</a></li>
+                		<li class="li4"></li>
+                	</ul>
+                </div>
+    		</li>
+
+    	</ul>
+    </div>
+  <div class="clear"></div>
+
+<a id="return" href="#"><div id="but">LOAD MORE</div></a>
+
+<div id="footer">	
+<dl>
+<dt>Copyright ©right; 2017 HS Inc. All Rights Reserved</dt>	
+<dd id="dd1">7 floor,Songridingsheng Building,Nanshan District,Shenzhen,Guangdong</dd>
+<dd id="dd2">Room 2815, 28/F, China Merchants Tower, Shun Tak Centre, 168-200 Connaught Road Central, Hong Kong</dd>
+</dl>
+
+	</div>
+</body>
+
+<script>
+	var aLi=document.getElementsByClassName('li1');
+	var oImg1=document.getElementById('img1');
+	var oImg2=document.getElementById('img2');
+	var oImg3=document.getElementById('img3');
+	var oDiv1=document.getElementById('main');
+	var aLi1=oDiv1.getElementsByClassName('list');
+	var aUl=document.getElementsByClassName('show');
+	var oBut=document.getElementById("but");
+	var num=0;
+
+	for(var i=0;i<aLi.length;i++)
+	{   aLi[i].index=i;
+		aLi[i].onclick=function(){
+	
+        if (this.index>num) {
+         doMove(oImg1,"bottom",50,400,function(){
+         	oImg1.style.bottom="0px";
+         })
+          doMove(oImg2,"bottom",50,400,function(){
+         	oImg2.style.bottom="0px";
+         })
+         
+        }
+        else{
+         doMove(oImg1,"bottom",50,-400,function(){
+         	oImg1.style.bottom="0px";
+         })
+          doMove(oImg3,"bottom",50,800,function(){
+         	oImg3.style.bottom="1200px";
+         })
+        
+        }
+			for(var j=0;j<aLi.length;j++)
+			{
+              aLi[j].style.background="white";
+			}
+			this.style.background="#A9A9A9";
+			num=this.index;
+				}				
+	}
+
+for(var i=0;i<aLi1.length;i++)
+{  aLi1[i].index=i;
+	aLi1[i].onmouseover=function(){
+		aUl[this.index].style.display="block";
+}
+aLi1[i].onmouseout=function(){	
+	     aUl[this.index].style.display="none";
+}
+}
+
+oBut.onmouseover=function(){
+	this.style.background="#EE2C2C";
+}
+oBut.onmouseout=function(){
+	this.style.background="white";
+}
+
+function doMove( obj, attr, dir, target, endFn ){
+	//console.log( parseInt( getStyle( obj, attr ) ) );
+	dir = parseInt( getStyle( obj, attr ) ) < target ? dir : -dir; ///当目标是800，自己位子<800，就是正，，
+
+	clearInterval( obj.simerM );
+	obj.simerM = setInterval( function(){
+		var speed = parseInt( getStyle( obj, attr ) ) + dir;  ///  当前的left属性值 + 每步数字 
+		if( speed > target && dir > 0 || speed < target && dir < 0 ){    
+			speed = target; 
+		}
+		obj.style[attr] = speed + 'px';  
+		if( speed == target ){
+			clearInterval( obj.simerM );
+			endFn && endFn();
+		}
+	},50 );
+}
+function getStyle( obj, attr ){   //  obj对应对象$('box')   attr属性 对应字符串'width'
+	return obj.currentStyle ? obj.currentStyle[attr] : getComputedStyle( obj )[attr];
+};
+
+
+
+
+</script>
+</html>

@@ -1,0 +1,160 @@
+.share .wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: url("../img/share_bg.png");
+  background-size: cover;
+}
+.share .wrap .inner {
+  position: relative;
+  margin: 14.74074074rem auto 1.74074074rem;
+  border-radius: 0.44444444rem;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 19px 0px #040000;
+  width: 18.33333333rem;
+  height: 18.88888889rem;
+}
+.share .wrap .inner .i_title {
+  position: absolute;
+  top: -0.77777778rem;
+  left: 1.85185185rem;
+  text-align: center;
+  width: 14.7037037rem;
+  height: 1.75925926rem;
+  border-radius: 0.12962963rem;
+  background-image: -moz-linear-gradient(90deg, #2464c7 0%, #5380ee 100%);
+  background-image: -webkit-linear-gradient(90deg, #2464c7 0%, #5380ee 100%);
+  background-image: -ms-linear-gradient(90deg, #2464c7 0%, #5380ee 100%);
+}
+.share .wrap .inner .i_title span {
+  font-weight: bold;
+  line-height: 1.75925926rem;
+  letter-spacing: 0.11111111rem;
+  font-size: 0.74074074rem;
+  font-family: "JZunYuan";
+  color: #ffffff;
+}
+.share .wrap .inner .i_methods {
+  padding-top: 1.53703704rem;
+}
+.share .wrap .inner .i_methods .m_title {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 1.25925926rem;
+  text-align: center;
+}
+.share .wrap .inner .i_methods .m_title div {
+  font-weight: bold;
+  letter-spacing: 0.03703704rem;
+  line-height: 1.11111111rem;
+  font-size: 0.77777778rem;
+  font-family: "JZunYuan";
+  color: #040404;
+}
+.share .wrap .inner .i_methods .m_title div b {
+  color: #2866ca;
+}
+.share .wrap .inner .i_methods .m_title div span {
+  margin-left: -0.22222222rem;
+}
+.share .wrap .inner .i_methods .m_title .left,
+.share .wrap .inner .i_methods .m_title .right {
+  position: absolute;
+  top: 0.51851852rem;
+  display: block;
+  width: 1.59259259rem;
+  height: 3px;
+  background: black;
+}
+.share .wrap .inner .i_methods .m_title .left {
+  left: 4.11111111rem;
+}
+.share .wrap .inner .i_methods .m_title .right {
+  right: 4.11111111rem;
+}
+.share .wrap .inner .i_methods ul li {
+  position: relative;
+  width: 14.88888889rem;
+  height: 2.53703704rem;
+  margin: 0.62962963rem auto;
+  background: url("../img/methods_bg.png");
+  background-size: cover;
+}
+.share .wrap .inner .i_methods ul li .content {
+  position: absolute;
+  top: 0.2962963rem;
+  left: 5.2962963rem;
+}
+.share .wrap .inner .i_methods ul li .content span {
+  line-height: 1.03703704rem;
+  font-size: 0.77777778rem;
+  font-family: "JZunYuan";
+  letter-spacing: 0.07407407rem;
+  color: #ffffff;
+}
+.share .wrap .inner .i_methods ul li .content p {
+  margin: 0;
+  line-height: 0.61111111rem;
+  font-size: 0.44444444rem;
+  font-family: "JZunYuan";
+  color: #ffffff;
+}
+.share .wrap .inner .i_methods ul .erweima {
+  margin-left: 2.96296296rem;
+  margin-top: 0.48148148rem;
+  width: 1.74074074rem;
+  height: 1.48148148rem;
+}
+.share .wrap .inner .i_methods ul .photo {
+  margin-left: 2.96296296rem;
+  margin-top: 0.59259259rem;
+  width: 1.85185185rem;
+  height: 1.37037037rem;
+}
+.share .wrap .inner .i_methods ul .share {
+  margin-left: 3.18518519rem;
+  margin-top: 0.5rem;
+  width: 1.57407407rem;
+  height: 1.57407407rem;
+}
+.share .wrap .inner .i_methods .example {
+  position: relative;
+  margin: 1.44444444rem auto 0;
+  border-radius: 7px;
+  background-color: #f3f8ff;
+  width: 17.09259259rem;
+  height: 4.62962963rem;
+}
+.share .wrap .inner .i_methods .example .e_title {
+  position: absolute;
+  top: -0.61111111rem;
+  left: 4.77777778rem;
+  width: 7.7037037rem;
+  height: 1.22222222rem;
+  background: url("../img/example_bg.jpg");
+  background-size: cover;
+  text-align: center;
+  line-height: 1.22222222rem;
+  font-size: 0.74074074rem;
+  letter-spacing: 0.03703704rem;
+  font-family: "JZunYuan";
+  color: #ffffff;
+}
+.share .wrap .inner .i_methods .example .e_content {
+  padding-top: 1.11111111rem;
+  text-align: center;
+}
+.share .wrap .inner .i_methods .example .e_content p {
+  margin: 0;
+  font-size: 0.66666667rem;
+  line-height: 1.37037037rem;
+  color: #838288;
+  font-family: "JHeiTi";
+}
+.share .wrap .inner .i_methods .example .e_content span {
+  color: #de4265 !important;
+}
+/*# sourceMappingURL=share.css.map */
