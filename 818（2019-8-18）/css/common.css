@@ -1,0 +1,1378 @@
+/*index*/
+.out {
+    width: 5.86rem;
+    height: 1.24rem;
+    position: absolute;
+    top: 8.7rem;
+    left: 0.83rem;
+    overflow: hidden;
+}
+.out img {
+    width: 100%;
+    position: relative;
+    bottom: 1.38rem;
+}
+.index {
+    position: relative;
+}
+.index .main {
+    overflow: hidden;
+    width: 100%;
+    height: 9.16rem;
+    background: url("../img/index_block_bg.jpg");
+    background-size: contain;
+}
+.index .main .show {
+    margin: 4rem auto 0;
+    border-radius: 0.2rem;
+    border: 0.1rem solid #ed3232;
+    width: 6.08rem;
+    height: 2.52rem;
+    position: relative;
+    background: white;
+}
+.index .main .show .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.index .main .show .mask img {
+    width: 5.9rem;
+    height: 2.32rem;
+}
+.index .main .show .content_tips {
+    width: 5.9rem;
+    height: 2.3rem;
+    border-radius: 0.1rem;
+    border: 0.1rem solid #d42020;
+    z-index: 1;
+}
+.index .main .show .content_tips img {
+    width: 5.7rem;
+    height: 2.3rem;
+}
+.index .main .show .content_number,
+.index .main .show .content_ready {
+    width: 5.9rem;
+    height: 2.3rem;
+    border-radius: 0.1rem;
+    border: 0.1rem solid #d42020;
+    z-index: 1;
+    background: url("../img/index_showboard_default.png");
+}
+.index .main .show .content_number strong {
+    padding-left: 0.6rem;
+    letter-spacing: 0.7rem;
+    line-height: 2.04rem;
+    font-size: 0.96rem;
+    color: #e63a38;
+}
+.index .main .show .content_ready {
+    text-align: center;
+}
+.index .main .show .content_ready strong {
+    font-size: 0.62rem;
+    color: #e63a38;
+    line-height: 2.04rem;
+}
+.index .main .join {
+    text-align: center;
+    line-height: 0.6rem;
+    font-size: 0.28rem;
+    color: #ffe6e4;
+}
+.index .main .join b {
+    font-size: 0.29rem;
+    color: #ffed7a;
+}
+.index .main a {
+    margin: 0rem auto;
+    display: block;
+    width: 3.3rem;
+    height: 0.9rem;
+    background: url("../img/btn_index_enter.png") 0 0.92rem;
+    background-size: cover;
+}
+.index .list {
+    height: 10.1rem;
+    background: url(../img/index_bg.png) 0 0 no-repeat;
+    background-size: 7.5rem;
+}
+.index .list ul {
+    padding: 1.06rem 0 0 0.54rem;
+}
+.index .list li {
+    float: left;
+    width: 3.19rem;
+}
+.index .view-more {
+    text-align: center;
+    padding-top: 0.2rem;
+    font-size: 0.3rem;
+}
+.index .view-more a {
+    color: #fff;
+}
+.index .my {
+    position: absolute;
+    top: 6rem;
+    right: 0.2rem;
+    width: 1.14rem;
+    height: 1.55rem;
+    background: url(../img/my.png) 0 0 no-repeat;
+    background-size: 1.14rem;
+}
+.index .rule {
+    position: absolute;
+    top: 0.3rem;
+    right: 0;
+    width: 1.23rem;
+    height: 0.52rem;
+    background: url(../img/rule.png) 0 0 no-repeat;
+    background-size: 1.23rem;
+}
+.index .index .main a:active {
+    opacity: 0.8;
+}
+.result strong {
+    line-height: 1rem;
+    font-size: 0.7rem;
+    color: #fc4330;
+}
+.result i {
+    margin-left: -0.14rem;
+    font-weight: bold;
+    font-size: 0.3rem;
+    color: #fc4330;
+    font-style: normal;
+}
+.result span {
+    font-size: 0.26rem;
+    color: #808080;
+    font-weight: bold;
+    padding-bottom: 0.12rem;
+}
+.app_tips p {
+    padding-top: 0.44rem;
+    line-height: 0.5rem;
+    font-size: 0.34rem;
+    color: #333333;
+    font-weight: bold;
+}
+.app_tips span {
+    display: block;
+    font-size: 0.28rem;
+    color: #fc4330;
+    font-weight: bold;
+    line-height: 0.44rem;
+}
+.open span {
+    display: block;
+    padding-top: 0.1rem;
+    font-size: 0.28rem;
+    color: #fc4330;
+    line-height: 0.44rem;
+}
+.open a {
+    background: url("../img/popup_btn.png");
+    background-size: cover;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    width: 3.3rem;
+    height: 1.02rem;
+    display: block;
+    margin: 0rem auto 0.28rem;
+    font-size: 0.34rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-variant: small-caps;
+    line-height: 1.02rem;
+    text-align: center;
+}
+::-webkit-input-placeholder {
+    color: #a7a7a7;
+}
+button {
+    background: none;
+}
+.login {
+    height: 100vh;
+    background: #fafafa;
+}
+.login .logo {
+    width: 100%;
+    height: 2.39rem;
+    background: url("../img/logo-bg.png");
+    text-align: center;
+}
+.login .logo img {
+    padding-top: 0.28rem;
+    width: 1.51rem;
+    height: 1.43rem;
+}
+.login .logo h1 {
+    line-height: 0.62rem;
+    font-size: 0.32rem;
+    font-family: "SourceHanSansCN";
+    color: #374c6e;
+}
+.login .form {
+    width: 100%;
+}
+.login .form .phone,
+.login .form .captcha {
+    background: white;
+    border-top: 0.01rem solid #e4e4e4;
+    width: 100%;
+    height: 1.12rem;
+}
+.login .form .phone span,
+.login .form .captcha span {
+    letter-spacing: 0.01rem;
+    padding-left: 0.4rem;
+    line-height: 1.12rem;
+    font-size: 0.28rem;
+    font-family: "PingFang";
+    color: #1b2b72;
+}
+.login .form .phone input,
+.login .form .captcha input {
+    margin-top: 0.4rem;
+    margin-left: 0.72rem;
+    letter-spacing: 0.01rem;
+    font-size: 0.27rem;
+    font-family: "PingFang";
+    color: #1b2b72;
+}
+.login .form .captcha {
+    position: relative;
+    border-bottom: 0.01rem solid #e4e4e4;
+}
+.login .form .captcha .get {
+    box-sizing: border-box;
+    border-left: 1px solid #e4e4e4;
+    top: 0.16rem;
+    right: 0;
+    width: 2.5rem;
+    position: absolute;
+    height: 0.8rem;
+}
+.login .form .captcha .get a {
+    letter-spacing: 0.01rem;
+    margin-left: 0.36rem;
+    line-height: 0.8rem;
+    font-size: 0.26rem;
+    color: #a7a7a7;
+}
+.login .form .toast {
+    letter-spacing: 0.01rem;
+    margin-top: 0.24rem;
+    text-align: center;
+    font-size: 0.25rem;
+    font-family: "PingFang";
+    color: #eb3b3b;
+}
+.login .form .submit {
+    display: block;
+    width: 5.71rem;
+    height: 0.82rem;
+    margin: 0.1rem auto 0;
+    border-radius: 10px;
+    background-color: #374c6e;
+    font-size: 0.28rem;
+    color: white;
+    letter-spacing: 0.01rem;
+}
+.login .form .not {
+    display: block;
+    width: 5.71rem;
+    height: 0.82rem;
+    margin: 0.1rem auto 0;
+    border-radius: 10px;
+    font-size: 0.28rem;
+    color: #9ba3c1;
+    letter-spacing: 0.01rem;
+    border-style: solid;
+    border-width: 0.01rem;
+    border-color: #e6e6e6;
+    background-color: #ffffff;
+}
+.detailed_body {
+    background: url("../img/detailed_bg.jpg") no-repeat, #f0f0f0;
+    background-size: 100%;
+}
+.detailed {
+    margin-bottom: 0.6rem;
+    width: 100%;
+}
+.detailed .money {
+    padding-top: 0.35rem;
+    text-align: center;
+}
+.detailed .money h1 {
+    font-size: 0.7rem;
+    line-height: 1.08rem;
+    color: #ffecb3;
+    letter-spacing: 0.01rem;
+}
+.detailed .money span {
+    font-size: 0.26rem;
+    color: #ffecb3;
+    font-weight: bold;
+}
+.detailed .main {
+    padding-bottom: 0.4rem;
+    overflow: hidden;
+    margin: 0.35rem auto 0;
+    border-radius: 0.2rem;
+    background-color: #ffffff;
+    width: 6.91rem;
+    min-height: 5.8rem;
+}
+.detailed .main .title {
+    display: flex;
+    height: 1.06rem;
+}
+.detailed .main .title .left,
+.detailed .main .title .right {
+    box-sizing: border-box;
+    flex: 1;
+    height: 1.06rem;
+    text-align: center;
+}
+.detailed .main .title .left strong,
+.detailed .main .title .right strong {
+    padding-top: 0.16rem;
+    line-height: 0.44rem;
+    display: block;
+    font-size: 0.36rem;
+    color: #808080;
+    font-variant: small-caps;
+}
+.detailed .main .title .left span,
+.detailed .main .title .right span {
+    line-height: 0.32rem;
+    font-size: 0.22rem;
+    color: #808080;
+    font-variant: small-caps;
+}
+.detailed .main .title .on {
+    border-bottom: 0.06rem solid #fc4330;
+}
+.detailed .main .title .on strong,
+.detailed .main .title .on span {
+    color: #fc4330;
+}
+.detailed .main .use_content,
+.detailed .main .nuse_content {
+    width: 100%;
+}
+.detailed .main .use_content li:first-child,
+.detailed .main .nuse_content li:first-child {
+    border-top: 0.01rem solid #dbdbdb;
+}
+.detailed .main .use_content li,
+.detailed .main .nuse_content li {
+    box-sizing: border-box;
+    border-bottom: 0.01rem solid #dbdbdb;
+    width: 100%;
+    height: 1.2rem;
+}
+.detailed .main .use_content li .li_left,
+.detailed .main .nuse_content li .li_left {
+    float: left;
+    width: 5.67rem;
+    height: 100%;
+    padding-left: 0.32rem;
+}
+.detailed .main .use_content li .li_left .top,
+.detailed .main .nuse_content li .li_left .top {
+    padding-top: 0.14rem;
+}
+.detailed .main .use_content li .li_left .top strong,
+.detailed .main .nuse_content li .li_left .top strong {
+    font-size: 0.3rem;
+    color: #fc4330;
+    font-variant: small-caps;
+    line-height: 0.42rem;
+}
+.detailed .main .use_content li .li_left .bottom p,
+.detailed .main .nuse_content li .li_left .bottom p {
+    margin-left: 0.03rem;
+    font-size: 0.22rem;
+    display: inline;
+    color: #808080;
+}
+.detailed .main .use_content li .li_right,
+.detailed .main .nuse_content li .li_right {
+    float: right;
+    padding-right: 0.34rem;
+}
+.detailed .main .use_content .top span {
+    font-size: 0.24rem;
+    font-weight: bold;
+    color: #808080;
+}
+.detailed .main .use_content .bottom span {
+    font-size: 0.28rem;
+    color: #333333;
+    font-variant: small-caps;
+}
+.detailed .main .use_content .li_right span {
+    font-size: 0.24rem;
+    color: #808080;
+    font-variant: small-caps;
+    line-height: 1.2rem;
+}
+.detailed .main .nuse_content .li_right span {
+    font-size: 0.24rem;
+    color: #fc4330;
+    font-variant: small-caps;
+    line-height: 1.2rem;
+}
+.detailed .over {
+    margin-top: 0.38rem;
+    position: relative;
+    text-align: center;
+    height: 0.24rem;
+}
+.detailed .over span {
+    position: absolute;
+    width: 0.8rem;
+    height: 0.02rem;
+    background: #d1d1d1;
+    display: block;
+    bottom: 0;
+}
+.detailed .over b {
+    font-size: 0.22rem;
+    font-family: "PingFang";
+    font-weight: normal;
+    color: #d1d1d1;
+    font-variant: small-caps;
+    line-height: 1.364;
+}
+.detailed .over span:first-child {
+    left: 2rem;
+}
+.detailed .over span:last-child {
+    right: 2rem;
+}
+.my-bill .content {
+    background: url("../img/product_bg.jpg") no-repeat, #f0f0f0;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+.my-bill .content .getReward {
+    padding-top: 2.12rem;
+}
+.my-bill .content .getReward li {
+    overflow: hidden;
+    border-radius: 0.18rem;
+    margin: 0.18rem auto 0;
+    width: 6.9rem;
+    height: 2.52rem;
+    background: white;
+}
+.my-bill .content .getReward li .top {
+    width: 100%;
+    height: 0.93rem;
+    background-color: #ffe9e7;
+}
+.my-bill .content .getReward li .top .title {
+    padding-left: 0.3rem;
+}
+.my-bill .content .getReward li .top .title .round {
+    margin-top: 0.3rem;
+    width: 0.29rem;
+    height: 0.29rem;
+    margin-right: 0.06rem;
+    float: left;
+}
+.my-bill .content .getReward li .top .title h3 {
+    float: left;
+    line-height: 0.93rem;
+    font-size: 0.29rem;
+    font-family: "PingFang", serif;
+    color: #333333;
+    font-weight: bold;
+}
+.my-bill .content .getReward li .top .title span {
+    float: left;
+    line-height: 0.92rem;
+    font-size: 0.26rem;
+    font-family: "PingFang";
+    font-variant: small-caps;
+}
+.my-bill .content .getReward li .top .title .bubble {
+    float: left;
+    width: 0.58rem;
+    height: 0.38rem;
+    margin-top: 0.02rem;
+    margin-left: -0.36rem;
+    background: url("../img/bubble.png");
+    background-size: contain;
+    font-size: 0.2rem;
+    text-align: center;
+    font-family: "DFPKingGothicGB";
+    color: #ffffff;
+    font-variant: small-caps;
+}
+.my-bill .content .getReward li .top button {
+    margin-top: 0.25rem;
+    margin-right: 0.3rem;
+    float: right;
+    border-radius: 0.08rem;
+    background-color: #fc4330;
+    width: 1.75rem;
+    height: 0.49rem;
+    z-index: 22;
+}
+.my-bill .content .getReward li .top button span {
+    font-size: 0.28rem;
+    font-family: "PingFang";
+    color: #ffffff;
+    font-weight: bold;
+    font-variant: small-caps;
+    line-height: 0.49rem;
+}
+.my-bill .content .getReward li .bottom {
+    display: flex;
+    width: 100%;
+}
+.my-bill .content .getReward li .bottom .left,
+.my-bill .content .getReward li .bottom .right {
+    flex: 1;
+    text-align: center;
+}
+.my-bill .content .getReward li .bottom .left strong,
+.my-bill .content .getReward li .bottom .right strong {
+    padding-top: 0.36rem;
+    font-size: 0.36rem;
+    font-family: "PingFang";
+    color: #333333;
+    font-weight: bold;
+    font-variant: small-caps;
+    display: block;
+}
+.my-bill .content .getReward li .bottom .left span,
+.my-bill .content .getReward li .bottom .right span {
+    line-height: 0.38rem;
+    font-size: 0.22rem;
+    font-family: "PingFang";
+    color: #808080;
+    font-variant: small-caps;
+}
+.my-bill .content .go {
+    margin: 0.3rem auto 0;
+    width: 6.82rem;
+    height: 1.46rem;
+}
+.my-bill .content .go img {
+    width: 6.82rem;
+    height: 1.46rem;
+}
+.my-bill .content .my {
+    margin: 0.4rem auto;
+    border-radius: 0.2rem;
+    width: 6.91rem;
+    min-height: 3.52rem;
+    background: white;
+    overflow: hidden;
+}
+.my-bill .content .my .title {
+    background-image: -moz-linear-gradient(90deg, #fb3123 0%, #fd563d 100%);
+    background-image: -webkit-linear-gradient(90deg, #fb3123 0%, #fd563d 100%);
+    background-image: -ms-linear-gradient(90deg, #fb3123 0%, #fd563d 100%);
+    width: 100%;
+    height: 0.81rem;
+}
+.my-bill .content .my .title h3 {
+    float: left;
+    margin-left: 0.33rem;
+    line-height: 0.81rem;
+    font-size: 0.32rem;
+    font-family: "PingFang";
+    font-weight: normal;
+    color: #ffffff;
+    font-variant: small-caps;
+}
+.my-bill .content .my .title a {
+    float: right;
+    font-size: 0.26rem;
+    font-family: "PingFang";
+    color: #ffffff;
+    font-variant: small-caps;
+    line-height: 0.81rem;
+    margin-right: 0.24rem;
+}
+.my-bill .content .my .ifUse {
+    width: 100%;
+}
+.my-bill .content .my .ifUse li {
+    position: relative;
+    width: 100%;
+    height: 0.93rem;
+    box-sizing: border-box;
+    border-bottom: 0.01rem solid #dbdbdb;
+}
+.my-bill .content .my .ifUse li span {
+    float: left;
+    line-height: 0.93rem;
+    font-size: 0.28rem;
+    font-family: "PingFang";
+    color: #333333;
+    font-variant: small-caps;
+    text-align: left;
+    margin-left: 0.66277rem;
+}
+.my-bill .content .my .ifUse li b {
+    position: absolute;
+    right: 0.28rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-family: "PingFang";
+    color: #999999;
+    font-variant: small-caps;
+    line-height: 0.98rem;
+}
+.my-bill .content .my .ifUse li .on {
+    color: #fc4330;
+}
+.my-bill .content .my .ifUse li:last-child {
+    border: none;
+}
+.my-bill .content .my .noData {
+    text-align: center;
+}
+.my-bill .content .my .noData img {
+    margin: 0.33rem auto 0;
+    display: block;
+    width: 1.61rem;
+    height: 1.61rem;
+}
+.my-bill .content .my .noData p {
+    padding-top: 0.06rem;
+    font-size: 0.28rem;
+    color: #808080;
+    font-variant: small-caps;
+    line-height: 0.42rem;
+}
+.my-bill .content .seeMore {
+    background: white;
+    position: relative;
+    border: 0.01rem solid #dbdbdb;
+    height: 1.55rem;
+}
+.my-bill .content .seeMore ul {
+    margin-left: 0.22rem;
+    padding-top: 0.19rem;
+}
+.my-bill .content .seeMore ul .not span {
+    font-size: 0.28rem;
+    font-family: "PingFang";
+    color: #333333;
+    font-variant: small-caps;
+    line-height: 0.48rem;
+}
+.my-bill .content .seeMore ul .not b {
+    font-size: 0.32rem;
+}
+.my-bill .content .seeMore ul .yes span,
+.my-bill .content .seeMore ul .all span {
+    font-size: 0.28rem;
+    font-family: "PingFang";
+    font-variant: small-caps;
+    line-height: 0.32rem;
+    color: #808080;
+}
+.my-bill .content .seeMore ul .yes b,
+.my-bill .content .seeMore ul .all b {
+    font-weight: normal;
+    font-size: 0.28rem;
+    color: #808080;
+}
+.my-bill .content .seeMore button {
+    line-height: 0.49rem;
+    border-radius: 0.08rem;
+    background-color: #fc4330;
+    position: absolute;
+    top: 0.54rem;
+    left: 5.99rem;
+    width: 1.21rem;
+    height: 0.49rem;
+    text-align: center;
+    font-size: 0.24rem;
+    font-family: "PingFang";
+    color: #ffffff;
+    font-weight: bold;
+    font-variant: small-caps;
+    letter-spacing: 0.01rem;
+}
+.toast_mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+}
+.toast_content {
+    width: 7.21rem;
+    position: fixed;
+    /*弹窗本体也要使用fixed定位，使之跟随滚动条移动，防止滚动条移到下方弹窗就看不见了*/
+    left: 0.16rem;
+    background: url("../img/popup_bg1.png") no-repeat;
+    background-size: 100%;
+}
+.toast_content .toast_main {
+    padding-bottom: 0.001rem;
+    text-align: center;
+    width: 7.21rem;
+    background: url("../img/popup_bg2.png");
+    background-size: 100%;
+    margin: 2.34rem auto 0;
+}
+.toast_main::after{/*after伪类属于.toast_main的子元素，是属于父子关系！*/
+    position:absolute;
+    right: 0;
+    left: 0;
+    bottom:-0.28rem;
+    display: block;
+    content: "";
+    margin: 0 auto;
+    width: 7.21rem;
+    height: 0.28rem;
+    background: url("../img/popup_bg3.png") no-repeat;
+    background-size: 100%;
+ }
+/*.toast_content .toast_over {*/
+    /*margin: 0 auto;*/
+    /*width: 7.21rem;*/
+    /*height: 0.28rem;*/
+    /*background: url("../img/popup_bg3.png") no-repeat;*/
+    /*background-size: 100%;*/
+/*}*/
+.toast_title {
+    position: absolute;
+    top: 1.4rem;
+    width: 6.58rem;
+    left: 0.32rem;
+    text-align: center;
+}
+.toast_title h3 {
+    line-height: 0.7rem;
+    font-size: 0.42rem;
+    color: #ffd37d;
+}
+.toast_close {
+    position: absolute;
+    top: 1.36rem;
+    right: 0.6rem;
+    width: 0.42rem;
+    height: 0.42rem;
+    background: url("../img/popup_btn_close1.png");
+    background-size: contain;
+}
+.toast_btn {
+    background: url("../img/popup_btn.png");
+    background-size: 100%;
+    width: 2.88rem;
+    height: 0.9rem;
+    display: block;
+    margin: 0rem auto 0.28rem;
+    font-size: 0.34rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-variant: small-caps;
+    line-height: 0.9rem;
+    text-align: center;
+}
+.toast_p {
+    width: 4.82rem;
+    margin: 0rem auto 0;
+}
+.toast_p p {
+    font-size: 0.26rem;
+    color: #333333;
+    font-weight: bold;
+    line-height: 0.38rem;
+}
+.toast_inner {
+    background-color: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0.2rem 0.2rem 0 0;
+}
+.toast_h3 {
+    text-align: center;
+    line-height: 0.9rem;
+    font-size: 0.32rem;
+    color: #333333;
+    border-bottom: 0.01rem solid #dbdbdb;
+}
+.toast_close_1 {
+    position: absolute;
+    top: 0.3rem;
+    right: 0.3rem;
+    width: 0.42rem;
+    height: 0.42rem;
+    background: url("../img/popup_btn_close2.png");
+    background-size: contain;
+}
+.chooseThis {
+    position: relative;
+}
+.chooseThis .toast_inner {
+    text-align: center;
+}
+.chooseThis .toast_inner span {
+    margin-top: 0.45rem;
+    display: block;
+    line-height: 0.46rem;
+    font-size: 0.28rem;
+    color: #333333;
+    font-variant: small-caps;
+}
+.chooseThis .toast_inner strong {
+    font-size: 0.4rem;
+    color: #ff8720;
+    line-height: 0.7rem;
+}
+.chooseThis .toast_inner .next {
+    text-align: center;
+    margin: 0.4rem auto 0;
+    border-radius: 0.1rem;
+    background-color: #fc4330;
+    display: block;
+    width: 2.81rem;
+    height: 0.81rem;
+    font-size: 0.32rem;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 0.81rem;
+}
+.chooseThis .toast_inner .experience {
+    width: 6.9rem;
+    height: 1rem;
+    margin: 0.3rem auto 0.26rem;
+    display: block;
+}
+.chooseThis .toast_inner .experience img {
+    width: 6.9rem;
+    height: 1rem;
+}
+.chooseBill .content {
+    position: relative;
+    overflow: hidden;
+}
+.chooseBill .content .allChoose {
+    position: absolute;
+    top: 0.2rem;
+    left: 6.63684rem;
+    font-size: 0.28rem;
+    color: #333333;
+}
+.chooseBill .content ul {
+    margin-top: 0.36rem;
+}
+.chooseBill .content ul li {
+    box-sizing: border-box;
+    border-bottom: 0.01rem solid #dbdbdb;
+    width: 100%;
+    height: 1.2rem;
+}
+.chooseBill .content ul li .li_left {
+    float: left;
+    width: 5.67rem;
+    height: 100%;
+    padding-left: 0.32rem;
+    padding-top: 0.24rem;
+}
+.chooseBill .content ul li .li_left strong {
+    display: block;
+    font-variant: small-caps;
+    line-height: 0.42rem;
+    font-size: 0.3rem;
+    color: #333333;
+    font-weight: normal;
+}
+.chooseBill .content ul li .li_left span {
+    font-size: 0.24rem;
+    color: #808080;
+}
+.chooseBill .content ul li .li_right {
+    float: right;
+    padding-right: 0.3rem;
+}
+.chooseBill .content ul li .li_right .m_radio {
+    display: inline-block;
+    margin-top: 0.4rem;
+    width: 0.42rem;
+    height: 0.42rem;
+    position: relative;
+}
+.chooseBill .content ul li .li_right .m_radio input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    opacity: 0;
+}
+.chooseBill .content ul li .li_right .m_radio em {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    box-sizing: border-box;
+    background: url("../img/checkbox_unchecked.png");
+    background-size: 0.42rem;
+}
+.chooseBill .content ul li .li_right .m_radio input[type='checkbox']:checked + em {
+    border: 0;
+    background: url("../img/checkbox_checked.png") center center no-repeat;
+    background-size: 0.42rem;
+}
+.chooseBill .content p {
+    padding-top: 0.2rem;
+    text-align: center;
+    font-size: 0.28rem;
+    color: #333333;
+}
+.chooseBill .content p i {
+    font-style: normal;
+    color: #fc4330;
+}
+.chooseBill .content .determine {
+    text-align: center;
+    margin: 0.22rem auto 0.27rem;
+    border-radius: 0.1rem;
+    background-color: #fc4330;
+    display: block;
+    width: 2.81rem;
+    height: 0.81rem;
+    font-size: 0.32rem;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 0.81rem;
+}
+.product_introduction .red {
+    padding-top: 0.1rem;
+    margin-left: 0.7rem;
+    text-align: left;
+}
+.product_introduction .red span {
+    line-height: 0.4rem;
+    padding-right: 0.4rem;
+    font-size: 0.28rem;
+    color: #fc4330;
+}
+.product_introduction .buy {
+    margin-top: 0.12rem;
+    display: block;
+    font-size: 0.26rem;
+    line-height: 0.46rem;
+    color: #fc4330;
+}
+.invitation {
+    background: url("../img/invitation-bg.png") no-repeat, #fc2b16;
+    background-size: 100%;
+}
+.my-invitation {
+    overflow: hidden;
+    padding-bottom: 0.6rem;
+    width: 100%;
+}
+.my-invitation .share {
+    background: url("../img/course_btn.png");
+    background-size: contain;
+    margin: 2.34rem auto 0;
+    width: 6.91rem;
+    height: 1.11rem;
+    text-align: center;
+}
+.my-invitation .share a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.my-invitation .share span {
+    padding-left: 0.54rem;
+    letter-spacing: 0.01rem;
+    line-height: 1.11rem;
+    font-size: 0.36rem;
+    color: #fc3f2d;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.my-invitation .main {
+    margin: 0.3rem auto 0;
+    border-radius: 0.2rem;
+    background-color: #ffffff;
+    width: 6.91rem;
+    min-height: 5.8rem;
+    padding-bottom: 0.4rem;
+}
+.my-invitation .main .title {
+    display: flex;
+    height: 1.06rem;
+}
+.my-invitation .main .title .left,
+.my-invitation .main .title .right {
+    box-sizing: border-box;
+    flex: 1;
+    height: 1.06rem;
+    text-align: center;
+}
+.my-invitation .main .title .left strong,
+.my-invitation .main .title .right strong {
+    padding-top: 0.16rem;
+    line-height: 0.44rem;
+    display: block;
+    font-size: 0.36rem;
+    color: #808080;
+    font-variant: small-caps;
+}
+.my-invitation .main .title .left span,
+.my-invitation .main .title .right span {
+    line-height: 0.32rem;
+    font-size: 0.22rem;
+    color: #808080;
+    font-variant: small-caps;
+}
+.my-invitation .main .title .on {
+    border-bottom: 0.06rem solid #fc4330;
+}
+.my-invitation .main .title .on strong,
+.my-invitation .main .title .on span {
+    color: #fc4330;
+}
+.my-invitation .main .content {
+    width: 100%;
+}
+.my-invitation .main .content li:first-child {
+    border-top: 0.01rem solid #dbdbdb;
+}
+.my-invitation .main .content li {
+    box-sizing: border-box;
+    border-bottom: 0.01rem solid #dbdbdb;
+    width: 100%;
+    height: 1.2rem;
+}
+.my-invitation .main .content li .li_left {
+    float: left;
+    width: 5.67rem;
+    height: 100%;
+}
+.my-invitation .main .content li .li_left p {
+    margin-left: 0.3rem;
+    line-height: 0.46rem;
+    padding-top: 0.15rem;
+    font-size: 0.28rem;
+    color: #333333;
+    font-variant: small-caps;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.my-invitation .main .content li .li_left span {
+    margin-left: 0.3rem;
+    font-size: 0.22rem;
+    color: #808080;
+    font-variant: small-caps;
+    line-height: 0.32rem;
+}
+.my-invitation .main .content li .li_left .time {
+    margin-left: -0.02rem;
+}
+.my-invitation .main .content li .li_right {
+    width: 1.23rem;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+.my-invitation .main .content li .li_right b {
+    display: block;
+    font-weight: normal;
+    line-height: 0.46rem;
+    padding-top: 0.15rem;
+    font-size: 0.28rem;
+    color: #333333;
+    font-variant: small-caps;
+}
+.my-invitation .main .content li .li_right span {
+    font-size: 0.22rem;
+    color: #808080;
+    font-variant: small-caps;
+    line-height: 0.32rem;
+}
+.my-invitation .over {
+    margin-top: 0.38rem;
+    position: relative;
+    text-align: center;
+    height: 0.24rem;
+}
+.my-invitation .over span {
+    position: absolute;
+    width: 0.8rem;
+    height: 0.02rem;
+    background: #d1d1d1;
+    display: block;
+    bottom: 0;
+}
+.my-invitation .over b {
+    font-size: 0.22rem;
+    font-family: "PingFang";
+    font-weight: normal;
+    color: #d1d1d1;
+    font-variant: small-caps;
+    line-height: 1.364;
+}
+.my-invitation .over span:first-child {
+    left: 2rem;
+}
+.my-invitation .over span:last-child {
+    right: 2rem;
+}
+.profit {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url("../img/profit-bg.png") no-repeat, #ffffff;
+    background-size: 100%;
+}
+.profit .user {
+    position: absolute;
+    left: 0.20784rem;
+    top: 0.24rem;
+}
+.profit .user span {
+    font-size: 0.24rem;
+    color: #ffffff;
+    font-variant: small-caps;
+}
+.profit .main {
+    letter-spacing: 0.02rem;
+    padding-top: 0.55rem;
+    text-align: center;
+}
+.profit .main span {
+    display: block;
+    font-size: 0.24rem;
+    line-height: 0.42rem;
+    color: #ffecb3;
+    font-variant: small-caps;
+}
+.profit .main strong {
+    line-height: 1rem;
+    font-size: 0.78rem;
+    letter-spacing: 0.12rem;
+    color: #ffecb3;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.profit .main i {
+    font-style: normal;
+    font-size: 0.42rem;
+    letter-spacing: 0.18rem;
+    color: #ffecb3;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.profit .main a {
+    margin: 0.2rem auto;
+    border-radius: 0.08rem;
+    background: url("../img/withdraw_btn_normal.png");
+    background-size: cover;
+    width: 2.71rem;
+    height: 0.61rem;
+    z-index: 21;
+    display: block;
+    line-height: 0.61rem;
+    font-size: 0.34rem;
+    color: #fc3f2d;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.profit .list {
+    width: 100%;
+    min-height: 5.4rem;
+}
+.profit .list .list_title {
+    width: 100%;
+    background-color: #ffebea;
+    height: 0.68rem;
+    display: flex;
+}
+.profit .list .list_title li {
+    line-height: 0.68rem;
+    flex: 1;
+    float: left;
+    text-align: center;
+    font-size: 0.28rem;
+    font-family: "PingFang";
+    color: #a98e8d;
+}
+.profit .list .noData {
+    text-align: center;
+    margin-top: 0.4rem;
+}
+.profit .list .noData img {
+    width: 1.61rem;
+    height: 1.61rem;
+}
+.profit .list .noData .no_content {
+    padding-top: 0.08rem;
+}
+.profit .list .noData .no_content p {
+    font-size: 0.28rem;
+    color: #808080;
+    font-variant: small-caps;
+    line-height: 0.42rem;
+}
+.profit .list .list_content li {
+    box-sizing: border-box;
+    height: 0.67rem;
+    border-bottom: 0.01rem solid #dbdbdb;
+    display: flex;
+}
+.profit .list .list_content li span,
+.profit .list .list_content li a {
+    flex: 1;
+    line-height: 0.67rem;
+    text-align: center;
+    display: block;
+    font-size: 0.28rem;
+    color: #333333;
+    font-variant: small-caps;
+}
+.profit .list .list_content li span i,
+.profit .list .list_content li a i {
+    font-style: normal;
+}
+.profit .list .list_content li .state {
+    color: #fc4330;
+}
+.profit .list .list_content li .on i {
+    padding: 0.04rem 0.22rem;
+    border-width: 0.02rem;
+    border-color: #fc4330;
+    border-style: solid;
+    border-radius: 0.08rem;
+}
+.profit .tips {
+    margin-bottom: 1.1rem;
+    margin-top: 0.16rem;
+    padding-left: 0.3rem;
+}
+.profit .tips h3 {
+    font-size: 0.28rem;
+    color: #808080;
+    font-variant: small-caps;
+    font-weight: normal;
+    line-height: 0.54rem;
+}
+.profit .tips span {
+    display: block;
+    line-height: 0.4rem;
+    font-size: 0.22rem;
+    color: #808080;
+    font-variant: small-caps;
+}
+.profit .go {
+    position: fixed;
+    box-sizing: border-box;
+    border-top: 0.01rem solid #dbdbdb;
+    border-bottom: 0.01rem solid #dbdbdb;
+    bottom: 0;
+    background-color: #ffffff;
+    padding-left: 0.3rem;
+    width: 7.5rem;
+    height: 1.06rem;
+}
+.profit .go h3 {
+    line-height: 0.48rem;
+    padding-top: 0.1rem;
+    font-size: 0.3rem;
+    color: #333333;
+    font-variant: small-caps;
+}
+.profit .go span {
+    line-height: 0.3rem;
+    font-size: 0.28rem;
+}
+.profit .go a {
+    border-radius: 0.08rem;
+    background-color: #fc4330;
+    position: absolute;
+    left: 5.99rem;
+    top: 0.3rem;
+    width: 1.21rem;
+    height: 0.49rem;
+    line-height: 0.49rem;
+    font-size: 0.24rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+}
+.cash_success .toast_main h3 {
+    line-height: 0.6rem;
+    font-size: 0.46rem;
+    color: #333333;
+}
+.cash_success .toast_main span {
+    margin-top: 0.1rem;
+    display: block;
+    font-size: 0.28rem;
+    color: #fc4330;
+    font-weight: bold;
+    line-height: 0.44rem;
+}
+.if_app .toast_main span,
+.if_gzh .toast_main span,
+.app_gzh .toast_main span {
+    margin-top: 0.1rem;
+    display: block;
+    font-size: 0.28rem;
+    color: #fc4330;
+    font-weight: bold;
+    line-height: 0.44rem;
+    margin-bottom: 0.08rem;
+}
+.if_app .toast_main div,
+.if_gzh .toast_main div,
+.app_gzh .toast_main div {
+    margin-bottom: 0.15rem;
+    text-align: left;
+}
+.if_app .toast_main div p,
+.if_gzh .toast_main div p,
+.app_gzh .toast_main div p {
+    padding-left: 0.6rem;
+    font-size: 0.28rem;
+    color: #333333;
+    line-height: 0.5rem;
+}
+.if_app .toast_main div img,
+.if_gzh .toast_main div img,
+.app_gzh .toast_main div img {
+    display: block;
+    margin: 0 auto;
+    width: 4.8rem;
+    height: 1.45rem;
+}
+.app_gzh .toast_main div img {
+    margin-top: 0.12rem;
+    height: 1.74rem;
+}
+
+
+
